@@ -7,9 +7,11 @@ import Footer from '../components/Footer.astro';
 interface Props {
   title: string;
   description: string;
+  image?: string;
+  type?: 'website' | 'article';
 }
 
-const { title, description } = Astro.props;
+const { title, description, image, type } = Astro.props;
 ---
 
 <!doctype html>
@@ -20,7 +22,7 @@ const { title, description } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
-    <SEOHead title={title} description={description} />
+    <SEOHead title={title} description={description} image={image} type={type} />
     <slot name="head" />
   </head>
   <body class="min-h-screen bg-white font-sans text-zinc-800 antialiased dark:bg-zinc-950 dark:text-zinc-200">

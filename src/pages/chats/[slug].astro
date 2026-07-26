@@ -5,7 +5,9 @@ import Card from '../../components/Card.astro';
 import ProviderBadge from '../../components/ProviderBadge.astro';
 import TagPill from '../../components/TagPill.astro';
 import ContentWarning from '../../components/ContentWarning.astro';
+import JsonLd from '../../components/JsonLd.astro';
 import { byDateDesc, formatDate, relatedEntries, PROVIDER_LABELS, type Entry } from '../../lib/entries';
+import { entryJsonLd, breadcrumbJsonLd } from '../../lib/seo';
 
 export async function getStaticPaths() {
   const entries = await getCollection('entries');
@@ -19,9 +21,28 @@ const all = (await getCollection('entries')).sort(byDateDesc);
 const related = relatedEntries(entry, all);
 const hasBody = entry.body && entry.body.trim().length > 0;
 const { Content } = await render(entry);
+const providerLabel = PROVIDER_LABELS[provider] ?? provider;
 ---
 
-<Base title={`${title} — SharedChats`} description={description}>
+<Base title={`${title} — SharedChats`} description={description} image={`/og/chats/${entry.id}.png`} type="article">
+  <JsonLd
+    slot="head"
+    data={[
+      entryJsonLd({
+        title,
+        description,
+        path: `/chats/${entry.id}/`,
+        datePublished: date_discovered,
+        providerLabel,
+        sourceUrl: source_url,
+      }),
+      breadcrumbJsonLd([
+        { name: 'Home', path: '/' },
+        { name: 'All chats', path: '/chats/' },
+        { name: title, path: `/chats/${entry.id}/` },
+      ]),
+    ]}
+  />
   <article class="mx-auto max-w-3xl py-10">
     <nav class="text-sm text-zinc-500 dark:text-zinc-400" aria-label="Breadcrumb">
       <a href="/chats/" class="hover:underline">All chats</a>

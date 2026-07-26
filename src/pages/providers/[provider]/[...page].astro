@@ -3,7 +3,9 @@ import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import Card from '../../../components/Card.astro';
 import Pagination from '../../../components/Pagination.astro';
+import JsonLd from '../../../components/JsonLd.astro';
 import { byDateDesc, PAGE_SIZE, PROVIDER_LABELS, PROVIDER_INTROS } from '../../../lib/entries';
+import { collectionPageJsonLd, breadcrumbJsonLd } from '../../../lib/seo';
 
 export async function getStaticPaths({ paginate }: { paginate: any }) {
   const entries = (await getCollection('entries')).sort(byDateDesc);
@@ -27,6 +29,21 @@ const pageSuffix = page.currentPage > 1 ? ` — page ${page.currentPage}` : '';
   title={`Shared ${label} conversations${pageSuffix} — SharedChats`}
   description={`${page.total} curated ${label} conversation${page.total === 1 ? '' : 's'}: hand-picked share links with original editorial summaries, newest first.`}
 >
+  <JsonLd
+    slot="head"
+    data={[
+      collectionPageJsonLd({
+        name: `Shared ${label} conversations`,
+        description: intro,
+        path: page.currentPage > 1 ? `/providers/${provider}/${page.currentPage}/` : `/providers/${provider}/`,
+        itemPaths: page.data.map((e: any) => `/chats/${e.id}/`),
+      }),
+      breadcrumbJsonLd([
+        { name: 'Home', path: '/' },
+        { name: `${label} conversations`, path: `/providers/${provider}/` },
+      ]),
+    ]}
+  />
   <section class="py-10">
     <h1 class="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
       {label} conversations

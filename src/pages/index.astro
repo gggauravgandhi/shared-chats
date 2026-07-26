@@ -2,7 +2,9 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
+import JsonLd from '../components/JsonLd.astro';
 import { byDateDesc } from '../lib/entries';
+import { websiteJsonLd } from '../lib/seo';
 
 const entries = (await getCollection('entries')).sort(byDateDesc);
 const featured = entries.filter((e) => e.data.featured).slice(0, 6);
@@ -13,6 +15,7 @@ const recent = entries.slice(0, 12);
   title="SharedChats — Interesting AI conversations, curated by humans"
   description="A human-curated index of interesting, publicly shared AI conversations from Claude, ChatGPT, Gemini and more. Browse, search, and read the originals."
 >
+  <JsonLd slot="head" data={websiteJsonLd()} />
   <section class="py-14">
     <h1 class="max-w-3xl text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl dark:text-zinc-50">
       Interesting AI conversations, curated by humans

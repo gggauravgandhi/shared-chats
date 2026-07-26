@@ -3,7 +3,9 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Card from '../../components/Card.astro';
 import Pagination from '../../components/Pagination.astro';
+import JsonLd from '../../components/JsonLd.astro';
 import { byDateDesc, PAGE_SIZE, PROVIDER_LABELS } from '../../lib/entries';
+import { collectionPageJsonLd } from '../../lib/seo';
 
 export async function getStaticPaths({ paginate }: { paginate: any }) {
   const entries = (await getCollection('entries')).sort(byDateDesc);
@@ -19,6 +21,15 @@ const pageSuffix = page.currentPage > 1 ? ` — page ${page.currentPage}` : '';
   title={`Browse all chats${pageSuffix} — SharedChats`}
   description="Every curated AI conversation on SharedChats, newest first. Filter by provider and open the original share pages."
 >
+  <JsonLd
+    slot="head"
+    data={collectionPageJsonLd({
+      name: `Browse all chats${pageSuffix}`,
+      description: 'Every curated AI conversation on SharedChats, newest first.',
+      path: page.currentPage > 1 ? `/chats/${page.currentPage}/` : '/chats/',
+      itemPaths: page.data.map((e: any) => `/chats/${e.id}/`),
+    })}
+  />
   <section class="py-10">
     <h1 class="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">All chats</h1>
     <p class="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
