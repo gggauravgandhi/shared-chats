@@ -18,7 +18,19 @@ npm run build      # astro build + pagefind index + internal link check → dist
 npm run preview    # serve the production build locally
 ```
 
-Deployment: see `DEPLOY.md` (Cloudflare Pages).
+## Deploy
+
+Live at **https://sharedchats.com** (Cloudflare Pages project `sharedchats`,
+direct upload — not git-connected). To ship changes:
+
+```sh
+set -a; source .env; set +a   # CLOUDFLARE_API_TOKEN + PUBLIC_GA_ID (gitignored)
+npm run build
+npx wrangler pages deploy dist --project-name sharedchats --branch main
+```
+
+`llms.txt`, the sitemap, RSS, OG images, and the Pagefind index are all
+regenerated automatically by `npm run build`. Full setup notes: `DEPLOY.md`.
 
 ## Content model
 
