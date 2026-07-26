@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const count = (await getCollection('entries')).length;
+---
+
+<Base
+  title="About — SharedChats"
+  description="SharedChats is an independent, human-curated index of publicly shared AI conversations. Learn what we list, how curation works, and how to reach us."
+>
+  <section class="mx-auto max-w-3xl py-10">
+    <h1 class="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">About SharedChats</h1>
+
+    <div class="mt-6 space-y-4 leading-relaxed text-zinc-600 dark:text-zinc-400">
+      <p>
+        People share remarkable AI conversations every day — brilliant explanations, absurd comedy,
+        genuinely impressive technical work — and then those links sink into social feeds and group
+        chats. SharedChats is a simple answer to that: a browsable, searchable index of publicly
+        shared AI conversations that are actually worth reading. Right now we index
+        <strong>{count}</strong> of them.
+      </p>
+
+      <h2 class="pt-4 text-lg font-semibold text-zinc-900 dark:text-zinc-50">How curation works</h2>
+      <p>
+        Every entry starts with a share link that a conversation's author published on an AI
+        provider's own site. A human editor reads the conversation and writes an original title,
+        summary, and tags. We never copy conversation content — the entry is a signpost, and the
+        conversation stays where its author put it. Clicking "Open original chat" takes you to the
+        provider's share page.
+      </p>
+      <p>
+        We list what is publicly shared, interesting, and non-harmful. We skip anything exposing
+        personal information, and we delist entries promptly when an author or rights holder asks.
+        Listing is never endorsement.
+      </p>
+
+      <h2 class="pt-4 text-lg font-semibold text-zinc-900 dark:text-zinc-50">Reach us</h2>
+      <p>
+        Questions, corrections, removal requests, or a conversation you think we should see:
+        <a href="mailto:hello@sharedchats.com" class="underline">hello@sharedchats.com</a>.
+      </p>
+    </div>
+  </section>
+</Base>

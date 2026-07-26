@@ -1,0 +1,80 @@
+---
+import Base from '../layouts/Base.astro';
+import JsonLd from '../components/JsonLd.astro';
+import { faqJsonLd } from '../lib/seo';
+
+const qas = [
+  {
+    question: 'What is SharedChats?',
+    answer:
+      'SharedChats is a human-curated index of interesting, publicly shared AI conversations. Editors find share links from providers like Claude, write an original title and summary for each one, and link you to the original conversation on the provider’s own site.',
+  },
+  {
+    question: 'Are these conversations real?',
+    answer:
+      'Every entry links to a share page published by the conversation’s own author on the AI provider’s official domain. We index only conversations that were already shared publicly. The AI’s statements inside a conversation may still be inaccurate or fictional — treat them as entertainment, not fact.',
+  },
+  {
+    question: 'Do you store or host the chats?',
+    answer:
+      'No. SharedChats never copies, caches, or reproduces conversation content. We publish only our own editorial metadata — a title, a short summary, tags, and a link. The conversation itself lives on the provider’s share page and stays under its author’s control.',
+  },
+  {
+    question: 'How are conversations selected?',
+    answer:
+      'A human editor reads each candidate conversation and asks one question: would someone be glad they clicked? We favor conversations that are technically impressive, genuinely funny, intellectually surprising, or educational. We reject anything exposing private information or promoting harm.',
+  },
+  {
+    question: 'How do I get my conversation removed?',
+    answer:
+      'Email hello@sharedchats.com with the link to the entry. If you are the conversation’s author or a rights holder, we will delist it promptly — no forms, no questions. Deleting the original share link on the provider’s site also makes our entry a dead end.',
+  },
+  {
+    question: 'Who writes the titles and summaries?',
+    answer:
+      'Our editors do. Titles and summaries on SharedChats are original editorial descriptions, not excerpts from the conversations. That is deliberate: it keeps the site useful as an index while the actual content remains only on the original share pages.',
+  },
+  {
+    question: 'Why does a link no longer work?',
+    answer:
+      'Share links belong to their authors, who can delete them at any time, and providers occasionally retire share URLs. If you hit a dead link, the conversation is gone at the source. We periodically prune entries that no longer resolve.',
+  },
+  {
+    question: 'Can I submit a conversation?',
+    answer:
+      'Not yet — submissions are coming in a future update. For now the index is curated by our own editors. If something truly remarkable is public and shareable, you can email it to hello@sharedchats.com and we may include it.',
+  },
+  {
+    question: 'Is SharedChats affiliated with Anthropic, OpenAI, or any AI provider?',
+    answer:
+      'No. SharedChats is an independent project. Claude, ChatGPT, Gemini, Grok and other product names are trademarks of their respective owners, and their use here is purely descriptive.',
+  },
+  {
+    question: 'Is the advice in these conversations reliable?',
+    answer:
+      'Assume not. Conversations are AI-generated and may contain errors, hallucinations, or fiction. Nothing indexed here is professional, medical, legal, or financial advice. Read them the way you would read an interesting forum thread — critically.',
+  },
+];
+---
+
+<Base
+  title="FAQ — SharedChats"
+  description="Answers to common questions about SharedChats: what it is, whether the conversations are real, how curation works, and how to get an entry removed."
+>
+  <JsonLd slot="head" data={faqJsonLd(qas)} />
+  <section class="mx-auto max-w-3xl py-10">
+    <h1 class="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
+      Frequently asked questions
+    </h1>
+    <dl class="mt-8 space-y-8">
+      {
+        qas.map((qa) => (
+          <div>
+            <dt class="text-lg font-semibold text-zinc-900 dark:text-zinc-50">{qa.question}</dt>
+            <dd class="mt-2 leading-relaxed text-zinc-600 dark:text-zinc-400">{qa.answer}</dd>
+          </div>
+        ))
+      }
+    </dl>
+  </section>
+</Base>
