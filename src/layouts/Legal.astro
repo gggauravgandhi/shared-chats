@@ -1,0 +1,24 @@
+---
+import Base from './Base.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  lastUpdated: string;
+}
+
+const { title, description, lastUpdated } = Astro.props;
+---
+
+<Base title={`${title} — SharedChats`} description={description}>
+  <!-- Draft — under review -->
+  <section class="mx-auto max-w-3xl py-10">
+    <h1 class="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">{title}</h1>
+    <p class="mt-2 text-sm text-zinc-500 dark:text-zinc-400">Last updated: {lastUpdated}</p>
+    <div
+      class="mt-6 space-y-4 leading-relaxed text-zinc-600 dark:text-zinc-400 [&_h2]:pt-4 [&_h2]:text-lg [&_h2]:font-semibold [&_h2]:text-zinc-900 dark:[&_h2]:text-zinc-50 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-1 [&_a]:underline"
+    >
+      <slot />
+    </div>
+  </section>
+</Base>

@@ -12,6 +12,7 @@ interface Props {
 }
 
 const { title, description, image, type } = Astro.props;
+const gaId = import.meta.env.PUBLIC_GA_ID;
 ---
 
 <!doctype html>
@@ -31,5 +32,63 @@ const { title, description, image, type } = Astro.props;
       <slot />
     </main>
     <Footer />
+    {
+      gaId && (
+        <>
+          <div
+            id="consent"
+            hidden
+            class="fixed inset-x-4 bottom-4 z-50 mx-auto flex max-w-md flex-wrap items-center justify-between gap-3 rounded-lg border border-zinc-300 bg-white p-4 text-sm shadow-lg dark:border-zinc-700 dark:bg-zinc-900"
+          >
+            <p class="text-zinc-700 dark:text-zinc-300">We use cookies for anonymous analytics.</p>
+            <div class="flex gap-2">
+              <button
+                id="consent-ok"
+                class="rounded-md bg-zinc-900 px-3 py-1.5 font-medium text-white dark:bg-zinc-100 dark:text-zinc-900"
+              >
+                OK
+              </button>
+              <button
+                id="consent-no"
+                class="rounded-md border border-zinc-300 px-3 py-1.5 text-zinc-700 dark:border-zinc-600 dark:text-zinc-300"
+              >
+                No thanks
+              </button>
+            </div>
+          </div>
+          <script is:inline define:vars={{ gaId }}>
+            (function () {
+              var KEY = 'sc-consent';
+              function loadGA() {
+                var s = document.createElement('script');
+                s.async = true;
+                s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+                document.head.appendChild(s);
+                window.dataLayer = window.dataLayer || [];
+                window.gtag = function () {
+                  dataLayer.push(arguments);
+                };
+                gtag('js', new Date());
+                gtag('config', gaId, { anonymize_ip: true });
+              }
+              var choice = localStorage.getItem(KEY);
+              if (choice === 'yes') return loadGA();
+              if (choice === 'no') return;
+              var el = document.getElementById('consent');
+              el.hidden = false;
+              document.getElementById('consent-ok').onclick = function () {
+                localStorage.setItem(KEY, 'yes');
+                el.hidden = true;
+                loadGA();
+              };
+              document.getElementById('consent-no').onclick = function () {
+                localStorage.setItem(KEY, 'no');
+                el.hidden = true;
+              };
+            })();
+          </script>
+        </>
+      )
+    }
   </body>
 </html>
