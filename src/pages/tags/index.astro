@@ -27,7 +27,7 @@ const tags = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeComp
   />
   <section class="py-10">
     <h1 class="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">Tags</h1>
-    <p class="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
+    <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
       {tags.length} tags across {entries.length} conversations, sorted by count.
     </p>
     <ul class="mt-6 flex flex-wrap gap-2">
@@ -39,7 +39,7 @@ const tags = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeComp
               class="inline-flex items-center gap-1.5 rounded-full border border-zinc-300 px-3 py-1 text-sm text-zinc-700 hover:border-zinc-500 hover:text-zinc-900 dark:border-zinc-700 dark:text-zinc-300 dark:hover:border-zinc-500 dark:hover:text-zinc-100"
             >
               {tag}
-              <span class="text-xs text-zinc-400 dark:text-zinc-500">{count}</span>
+              <span class="text-xs text-zinc-600 dark:text-zinc-400">{count}</span>
             </a>
           </li>
         ))
