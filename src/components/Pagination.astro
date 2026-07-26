@@ -1,0 +1,40 @@
+---
+import { withTrailingSlash } from '../lib/entries';
+
+interface Props {
+  // Astro paginate() Page object (partial shape we use)
+  page: {
+    currentPage: number;
+    lastPage: number;
+    url: { prev: string | undefined; next: string | undefined };
+  };
+}
+
+const { page } = Astro.props;
+const prev = withTrailingSlash(page.url.prev);
+const next = withTrailingSlash(page.url.next);
+---
+
+{
+  page.lastPage > 1 && (
+    <nav class="mt-8 flex items-center justify-between text-sm" aria-label="Pagination">
+      {prev ? (
+        <a href={prev} class="font-medium text-zinc-700 hover:underline dark:text-zinc-300">
+          &larr; Newer
+        </a>
+      ) : (
+        <span />
+      )}
+      <span class="text-zinc-500">
+        Page {page.currentPage} of {page.lastPage}
+      </span>
+      {next ? (
+        <a href={next} class="font-medium text-zinc-700 hover:underline dark:text-zinc-300">
+          Older &rarr;
+        </a>
+      ) : (
+        <span />
+      )}
+    </nav>
+  )
+}

@@ -1,18 +1,58 @@
 ---
+import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import { byDateDesc } from '../lib/entries';
+
+const entries = (await getCollection('entries')).sort(byDateDesc);
+const featured = entries.filter((e) => e.data.featured).slice(0, 6);
+const recent = entries.slice(0, 12);
 ---
 
 <Base
   title="SharedChats — Interesting AI conversations, curated by humans"
   description="A human-curated index of interesting, publicly shared AI conversations from Claude, ChatGPT, Gemini and more. Browse, search, and read the originals."
 >
-  <section class="py-16">
-    <h1 class="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
+  <section class="py-14">
+    <h1 class="max-w-3xl text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl dark:text-zinc-50">
       Interesting AI conversations, curated by humans
     </h1>
     <p class="mt-4 max-w-2xl text-zinc-600 dark:text-zinc-400">
-      SharedChats collects publicly shared AI conversations worth reading and
-      links you to the originals. Site under construction.
+      People share remarkable conversations with AI every day — then they vanish into feeds.
+      SharedChats finds the ones worth reading and links you to the originals. Currently indexing
+      <strong>{entries.length}</strong> conversations.
     </p>
+    <div class="mt-6">
+      <a
+        href="/chats/"
+        class="inline-block rounded-md bg-zinc-900 px-4 py-2 text-sm font-medium text-white hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-300"
+        >Browse all chats</a
+      >
+    </div>
+  </section>
+
+  {
+    featured.length > 0 && (
+      <section class="py-6" aria-labelledby="picks">
+        <h2 id="picks" class="text-xl font-semibold text-zinc-900 dark:text-zinc-50">
+          Editor’s picks
+        </h2>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {featured.map((e) => (
+            <Card entry={e} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <section class="py-6" aria-labelledby="recent">
+    <div class="flex items-baseline justify-between">
+      <h2 id="recent" class="text-xl font-semibold text-zinc-900 dark:text-zinc-50">Recently added</h2>
+      <a href="/chats/" class="text-sm font-medium text-zinc-600 hover:underline dark:text-zinc-400">View all &rarr;</a>
+    </div>
+    <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {recent.map((e) => <Card entry={e} />)}
+    </div>
   </section>
 </Base>

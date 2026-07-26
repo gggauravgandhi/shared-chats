@@ -1,0 +1,13 @@
+---
+import { PROVIDER_LABELS, PROVIDER_BADGE_CLASSES } from '../lib/entries';
+
+interface Props {
+  provider: string;
+}
+
+const { provider } = Astro.props;
+const label = PROVIDER_LABELS[provider] ?? provider;
+const classes = PROVIDER_BADGE_CLASSES[provider] ?? PROVIDER_BADGE_CLASSES.other;
+---
+
+<span class={`inline-block rounded-full px-2 py-0.5 text-xs font-medium ${classes}`}>{label}</span>

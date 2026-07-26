@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import Card from '../../../components/Card.astro';
+import Pagination from '../../../components/Pagination.astro';
+import { byDateDesc, PAGE_SIZE } from '../../../lib/entries';
+
+export async function getStaticPaths({ paginate }: { paginate: any }) {
+  const entries = (await getCollection('entries')).sort(byDateDesc);
+  const tags = [...new Set(entries.flatMap((e) => e.data.tags))].sort();
+  return tags.flatMap((tag) =>
+    paginate(
+      entries.filter((e) => e.data.tags.includes(tag)),
+      { params: { tag }, pageSize: PAGE_SIZE }
+    )
+  );
+}
+
+const { page } = Astro.props;
+const { tag } = Astro.params;
+const pageSuffix = page.currentPage > 1 ? ` — page ${page.currentPage}` : '';
+---
+
+<Base
+  title={`Chats tagged “${tag}”${pageSuffix} — SharedChats`}
+  description={`All ${page.total} curated AI conversation${page.total === 1 ? '' : 's'} tagged “${tag}” on SharedChats, newest first, with links to the original share pages.`}
+>
+  <section class="py-10">
+    <nav class="text-sm text-zinc-500 dark:text-zinc-400" aria-label="Breadcrumb">
+      <a href="/tags/" class="hover:underline">Tags</a>
+      <span aria-hidden="true"> / </span>
+      <span class="text-zinc-700 dark:text-zinc-300">{tag}</span>
+    </nav>
+    <h1 class="mt-3 text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">#{tag}</h1>
+    <p class="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
+      {page.total} conversation{page.total === 1 ? '' : 's'} with this tag.
+    </p>
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {page.data.map((e: any) => <Card entry={e} />)}
+    </div>
+    <Pagination page={page} />
+  </section>
+</Base>

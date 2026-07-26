@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import Card from '../../../components/Card.astro';
+import Pagination from '../../../components/Pagination.astro';
+import { byDateDesc, PAGE_SIZE, PROVIDER_LABELS, PROVIDER_INTROS } from '../../../lib/entries';
+
+export async function getStaticPaths({ paginate }: { paginate: any }) {
+  const entries = (await getCollection('entries')).sort(byDateDesc);
+  const providers = [...new Set(entries.map((e) => e.data.provider))].sort();
+  return providers.flatMap((provider) =>
+    paginate(
+      entries.filter((e) => e.data.provider === provider),
+      { params: { provider }, pageSize: PAGE_SIZE }
+    )
+  );
+}
+
+const { page } = Astro.props;
+const { provider } = Astro.params;
+const label = PROVIDER_LABELS[provider as string] ?? provider;
+const intro = PROVIDER_INTROS[provider as string] ?? PROVIDER_INTROS.other;
+const pageSuffix = page.currentPage > 1 ? ` — page ${page.currentPage}` : '';
+---
+
+<Base
+  title={`Shared ${label} conversations${pageSuffix} — SharedChats`}
+  description={`${page.total} curated ${label} conversation${page.total === 1 ? '' : 's'}: hand-picked share links with original editorial summaries, newest first.`}
+>
+  <section class="py-10">
+    <h1 class="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
+      {label} conversations
+    </h1>
+    <p class="mt-3 max-w-2xl text-zinc-600 dark:text-zinc-400">{intro}</p>
+    <p class="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
+      {page.total} conversation{page.total === 1 ? '' : 's'} indexed.
+    </p>
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {page.data.map((e: any) => <Card entry={e} />)}
+    </div>
+    <Pagination page={page} />
+  </section>
+</Base>

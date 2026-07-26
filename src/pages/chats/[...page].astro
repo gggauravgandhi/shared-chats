@@ -1,0 +1,51 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import Pagination from '../../components/Pagination.astro';
+import { byDateDesc, PAGE_SIZE, PROVIDER_LABELS } from '../../lib/entries';
+
+export async function getStaticPaths({ paginate }: { paginate: any }) {
+  const entries = (await getCollection('entries')).sort(byDateDesc);
+  return paginate(entries, { pageSize: PAGE_SIZE });
+}
+
+const { page } = Astro.props;
+const providers = [...new Set((await getCollection('entries')).map((e) => e.data.provider))].sort();
+const pageSuffix = page.currentPage > 1 ? ` — page ${page.currentPage}` : '';
+---
+
+<Base
+  title={`Browse all chats${pageSuffix} — SharedChats`}
+  description="Every curated AI conversation on SharedChats, newest first. Filter by provider and open the original share pages."
+>
+  <section class="py-10">
+    <h1 class="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">All chats</h1>
+    <p class="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
+      {page.total} curated conversation{page.total === 1 ? '' : 's'}, newest first.
+    </p>
+
+    <div class="mt-4 flex flex-wrap gap-2 text-sm">
+      <span
+        class="rounded-full bg-zinc-900 px-3 py-1 font-medium text-white dark:bg-zinc-100 dark:text-zinc-900"
+        aria-current="true">All</span
+      >
+      {
+        providers.map((p) => (
+          <a
+            href={`/providers/${p}/`}
+            class="rounded-full border border-zinc-300 px-3 py-1 text-zinc-600 hover:border-zinc-500 hover:text-zinc-900 dark:border-zinc-700 dark:text-zinc-400 dark:hover:border-zinc-500 dark:hover:text-zinc-100"
+          >
+            {PROVIDER_LABELS[p] ?? p}
+          </a>
+        ))
+      }
+    </div>
+
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {page.data.map((e: any) => <Card entry={e} />)}
+    </div>
+
+    <Pagination page={page} />
+  </section>
+</Base>
