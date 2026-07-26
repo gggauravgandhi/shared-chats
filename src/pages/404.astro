@@ -15,6 +15,7 @@ const recent = (await getCollection('entries')).sort(byDateDesc).slice(0, 6);
     <h1 class="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">Page not found</h1>
     <p class="mt-4 max-w-2xl text-zinc-600 dark:text-zinc-400">
       This page doesn't exist — maybe the entry was removed, or the link had a typo. Try
+      <a href="/search/" class="font-medium underline">searching</a> or
       <a href="/chats/" class="font-medium underline">browsing all chats</a> instead.
     </p>
     <h2 class="mt-10 text-xl font-semibold text-zinc-900 dark:text-zinc-50">Recently added</h2>

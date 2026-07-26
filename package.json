@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/check-links.ts",
+    "build": "astro build && pagefind --site dist && node scripts/check-links.ts",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -18,5 +18,8 @@
     "astro": "^7.1.3",
     "astro-og-canvas": "^0.13.0",
     "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "pagefind": "^1.5.2"
   }
 }

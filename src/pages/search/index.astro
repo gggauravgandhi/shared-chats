@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+
+<Base
+  title="Search — SharedChats"
+  description="Search every curated AI conversation on SharedChats by title, summary, or tag, and jump straight to the original share pages."
+>
+  <section class="py-10">
+    <h1 class="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">Search</h1>
+    <p class="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
+      Search titles, summaries, and tags across all curated conversations.
+    </p>
+    <div id="search" class="mt-6"></div>
+  </section>
+
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      const ui = new PagefindUI({ element: '#search', showSubResults: false, showImages: false });
+      const q = new URLSearchParams(location.search).get('q');
+      if (q) ui.triggerSearch(q);
+    });
+  </script>
+</Base>
+
+<style is:global>
+  :root {
+    --pagefind-ui-primary: #18181b;
+    --pagefind-ui-text: #3f3f46;
+    --pagefind-ui-border: #e4e4e7;
+    --pagefind-ui-background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --pagefind-ui-primary: #fafafa;
+      --pagefind-ui-text: #d4d4d8;
+      --pagefind-ui-border: #3f3f46;
+      --pagefind-ui-background: #09090b;
+    }
+  }
+</style>
