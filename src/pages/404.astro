@@ -1,10 +1,9 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
-import { byDateDesc } from '../lib/entries';
+import { byDateDesc, liveEntries } from '../lib/entries';
 
-const recent = (await getCollection('entries')).sort(byDateDesc).slice(0, 6);
+const recent = (await liveEntries()).sort(byDateDesc).slice(0, 6);
 ---
 
 <Base

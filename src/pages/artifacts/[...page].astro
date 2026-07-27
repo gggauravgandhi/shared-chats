@@ -1,14 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Card from '../../components/Card.astro';
 import Pagination from '../../components/Pagination.astro';
 import JsonLd from '../../components/JsonLd.astro';
-import { byDateDesc, PAGE_SIZE, entryPath } from '../../lib/entries';
+import { byDateDesc, PAGE_SIZE, entryPath, liveEntries } from '../../lib/entries';
 import { collectionPageJsonLd } from '../../lib/seo';
 
 export async function getStaticPaths({ paginate }: { paginate: any }) {
-  const entries = (await getCollection('entries', ({ data }: any) => data.kind === 'artifact')).sort(byDateDesc);
+  const entries = (await liveEntries((e) => e.data.kind === 'artifact')).sort(byDateDesc);
   return paginate(entries, { pageSize: PAGE_SIZE });
 }
 

@@ -1,8 +1,7 @@
-import { getCollection } from 'astro:content';
 import { OGImageRoute } from 'astro-og-canvas';
-import { PROVIDER_LABELS } from '../../lib/entries';
+import { PROVIDER_LABELS, liveEntries } from '../../lib/entries';
 
-const entries = await getCollection('entries');
+const entries = await liveEntries();
 
 type OgPage = { title: string; description: string };
 

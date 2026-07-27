@@ -1,14 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import Card from '../../../components/Card.astro';
 import Pagination from '../../../components/Pagination.astro';
 import JsonLd from '../../../components/JsonLd.astro';
-import { byDateDesc, PAGE_SIZE } from '../../../lib/entries';
+import { byDateDesc, PAGE_SIZE, entryPath, liveEntries } from '../../../lib/entries';
 import { collectionPageJsonLd, breadcrumbJsonLd } from '../../../lib/seo';
 
 export async function getStaticPaths({ paginate }: { paginate: any }) {
-  const entries = (await getCollection('entries')).sort(byDateDesc);
+  const entries = (await liveEntries()).sort(byDateDesc);
   const tags = [...new Set(entries.flatMap((e) => e.data.tags))].sort();
   return tags.flatMap((tag) =>
     paginate(
@@ -34,7 +33,7 @@ const pageSuffix = page.currentPage > 1 ? ` — page ${page.currentPage}` : '';
         name: `Chats tagged “${tag}”`,
         description: `Curated AI conversations tagged “${tag}”.`,
         path: page.currentPage > 1 ? `/tags/${tag}/${page.currentPage}/` : `/tags/${tag}/`,
-        itemPaths: page.data.map((e: any) => `/chats/${e.id}/`),
+        itemPaths: page.data.map((e: any) => entryPath(e)),
       }),
       breadcrumbJsonLd([
         { name: 'Home', path: '/' },

@@ -1,10 +1,9 @@
 import rss from '@astrojs/rss';
 import type { APIContext } from 'astro';
-import { getCollection } from 'astro:content';
-import { byDateDesc, entryPath } from '../lib/entries';
+import { byDateDesc, entryPath, liveEntries } from '../lib/entries';
 
 export async function GET(context: APIContext) {
-  const entries = (await getCollection('entries')).sort(byDateDesc).slice(0, 50);
+  const entries = (await liveEntries()).sort(byDateDesc).slice(0, 50);
   return rss({
     title: 'SharedChats',
     description: 'Interesting AI conversations, curated by humans. New entries as we find them.',

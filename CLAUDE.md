@@ -59,6 +59,11 @@ providers' own share pages.
   route: `/chats/[slug]/` or `/artifacts/[slug]/`. Both render through
   `src/components/EntryDetail.astro`; use `entryPath()` from `src/lib/entries.ts`
   for any link to an entry — never hardcode `/chats/`.
+- **Read the entry collection only through `liveEntries()`** in
+  `src/lib/entries.ts`; never call `getCollection('entries')` anywhere else. It is
+  the single point that drops non-`live` entries, so bypassing it silently
+  republishes a dead or editorially pulled entry. Same rule for `facetTags()` —
+  Pagefind filter values come from there, not from literals.
 - Slug = entry filename. URLs use trailing slashes (`trailingSlash: 'always'`).
 - `rel="canonical"` always points at the page's own sharedchats.com URL.
 - Outbound source links: `target="_blank" rel="noopener nofollow ugc"`.

@@ -1,8 +1,29 @@
-import type { CollectionEntry } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 
 export type Entry = CollectionEntry<'entries'>;
 
 export const PAGE_SIZE = 24;
+
+// The only way the site reads the collection. Non-live entries — a dead source
+// link, or one an editor pulled — get no page and appear in no listing, feed or
+// index. Read the collection through anything else and that guarantee is gone.
+export async function liveEntries(where?: (e: Entry) => boolean): Promise<Entry[]> {
+  const live = await getCollection('entries', ({ data }) => data.status === 'live');
+  return where ? live.filter(where) : live;
+}
+
+// Tags common enough to be worth a search facet. Every tag stays searchable as
+// text; only these get a checkbox, or the filter pane becomes the 541-item wall
+// that /tags/ already is.
+export const TAG_FACET_MIN = 5;
+
+export function facetTags(all: Entry[], min = TAG_FACET_MIN): Set<string> {
+  const counts = new Map<string, number>();
+  for (const e of all) {
+    for (const t of e.data.tags) counts.set(t, (counts.get(t) ?? 0) + 1);
+  }
+  return new Set([...counts].filter(([, n]) => n >= min).map(([t]) => t));
+}
 
 export const PROVIDER_LABELS: Record<string, string> = {
   claude: 'Claude',

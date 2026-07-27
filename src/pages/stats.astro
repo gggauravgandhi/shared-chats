@@ -1,10 +1,9 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import { PROVIDER_LABELS, formatDate } from '../lib/entries';
+import { PROVIDER_LABELS, formatDate, liveEntries } from '../lib/entries';
 import { computeStats } from '../lib/stats';
 
-const entries = await getCollection('entries');
+const entries = await liveEntries();
 const stats = computeStats(entries);
 const maxMonth = Math.max(...stats.perMonth.map(([, n]) => n));
 const maxTag = stats.topTags.length ? stats.topTags[0][1] : 1;

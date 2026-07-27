@@ -18,7 +18,12 @@ import Base from '../../layouts/Base.astro';
   <script is:inline src="/pagefind/pagefind-ui.js"></script>
   <script is:inline>
     window.addEventListener('DOMContentLoaded', () => {
-      const ui = new PagefindUI({ element: '#search', showSubResults: false, showImages: false });
+      const ui = new PagefindUI({
+        element: '#search',
+        showSubResults: false,
+        showImages: false,
+        showEmptyFilters: false,
+      });
       const q = new URLSearchParams(location.search).get('q');
       if (q) ui.triggerSearch(q);
     });

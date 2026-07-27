@@ -1,11 +1,10 @@
 import type { APIRoute } from 'astro';
-import { getCollection } from 'astro:content';
-import { PROVIDER_LABELS } from '../lib/entries';
+import { PROVIDER_LABELS, liveEntries } from '../lib/entries';
 
 const SITE = 'https://sharedchats.com';
 
 export const GET: APIRoute = async () => {
-  const entries = await getCollection('entries');
+  const entries = await liveEntries();
   const providers = [...new Set(entries.map((e) => e.data.provider))].sort();
 
   const body = `# SharedChats

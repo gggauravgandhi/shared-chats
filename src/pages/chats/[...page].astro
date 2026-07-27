@@ -1,19 +1,18 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Card from '../../components/Card.astro';
 import Pagination from '../../components/Pagination.astro';
 import JsonLd from '../../components/JsonLd.astro';
-import { byDateDesc, PAGE_SIZE, PROVIDER_LABELS } from '../../lib/entries';
+import { byDateDesc, PAGE_SIZE, PROVIDER_LABELS, liveEntries } from '../../lib/entries';
 import { collectionPageJsonLd } from '../../lib/seo';
 
 export async function getStaticPaths({ paginate }: { paginate: any }) {
-  const entries = (await getCollection('entries', ({ data }: any) => data.kind === 'chat')).sort(byDateDesc);
+  const entries = (await liveEntries((e) => e.data.kind === 'chat')).sort(byDateDesc);
   return paginate(entries, { pageSize: PAGE_SIZE });
 }
 
 const { page } = Astro.props;
-const providers = [...new Set((await getCollection('entries')).map((e) => e.data.provider))].sort();
+const providers = [...new Set((await liveEntries()).map((e) => e.data.provider))].sort();
 const pageSuffix = page.currentPage > 1 ? ` — page ${page.currentPage}` : '';
 ---
 

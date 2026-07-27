@@ -1,12 +1,11 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Card from '../components/Card.astro';
 import JsonLd from '../components/JsonLd.astro';
-import { byDateDesc } from '../lib/entries';
+import { byDateDesc, liveEntries } from '../lib/entries';
 import { websiteJsonLd } from '../lib/seo';
 
-const entries = (await getCollection('entries')).sort(byDateDesc);
+const entries = (await liveEntries()).sort(byDateDesc);
 const featured = entries.filter((e) => e.data.featured).slice(0, 6);
 const recentChats = entries.filter((e) => e.data.kind !== 'artifact').slice(0, 6);
 const recentArtifacts = entries.filter((e) => e.data.kind === 'artifact').slice(0, 6);

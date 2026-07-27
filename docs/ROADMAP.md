@@ -30,7 +30,7 @@ skipped*.)
 the *Not building* list below. This item is the version that does not touch it
 and does not re-tag 524 files.
 
-### [ ] 2. Pagefind filters on /search
+### [x] 2. Pagefind filters on /search — shipped 2026-07-27
 
 Verified absent — no `data-pagefind-filter` anywhere in `src/`. At 524 entries
 the results are one flat list; provider / kind / tag facets are built into
@@ -50,37 +50,90 @@ Pagefind and need no new dependency.
   reads like a config bug.
 - `npm run build` reports `Indexed N filters` — currently `0`. That line is the
   check that the attributes actually landed.
-- Then enable the panel in the `PagefindUI` init in `src/pages/search/index.astro`.
-- ~5 lines, 2 files.
+**What shipped, and two Pagefind facts that cost a build each to learn:**
 
-### [ ] 3. provider × kind listing pages
+- Facets are `kind`, `provider`, and `tag`. Build reports `Indexed 3 filters`.
+- **Inline `name:value` captures to the end of the attribute.** So
+  `data-pagefind-filter="kind:Chat, provider:Claude"` does *not* create two
+  filters — it creates one `kind` whose value is the literal string
+  `"Chat, provider:Claude"`. Multiple keys on one element need the selector form:
+  `data-pagefind-filter="kind[data-kind], provider[data-provider]"` with the
+  values in those `data-` attributes. This is on the `<h1>` in `EntryDetail.astro`.
+- **Pagefind skips `hidden` elements.** A hidden div of filter values indexes as
+  nothing. The tag facet therefore hangs off the *visible* tag pills.
+- The tag pills lost their `data-pagefind-ignore` on purpose: a tag is the only
+  place a topic word like `three-js` appears on the page, so ignoring that block
+  had made tags entirely unsearchable. Now every tag is indexed as text, while
+  only tags with ≥ `TAG_FACET_MIN` (5) entries get a filter checkbox — 79 of 541,
+  instead of a filter pane as unusable as `/tags/`.
+- `showEmptyFilters: false` in the `PagefindUI` init, so the pane narrows as you type.
+- Verify with `npm run build`: the `Indexed N filters` line, plus decoding a
+  fragment (`gunzip -c dist/pagefind/fragment/*.pf_fragment`) to see the actual
+  per-page filter values. The count alone would not have caught the bug above.
 
-`/providers/claude/artifacts/`, `/providers/gemini/chats/`, and so on. 8
-providers × 2 kinds is a manageable page count, each page has real depth, and it
-adds internal links between the two halves of the site.
+### [ ] 3. provider × kind listing pages — blocked on the data, not on effort
 
-- Extend `src/pages/providers/[provider]/[...page].astro` or add a nested route.
-- Needs its own intro copy per combination, same as `PROVIDER_INTROS` in
-  `src/lib/entries.ts` — a bare filtered list is a thin page.
+Approved 2026-07-27 and then not built, because measuring the actual distribution
+killed the premise. The item was scoped against the 8-value `PROVIDERS` enum; only
+4 are live, and the kinds are not spread across them at all:
+
+| combination | entries |
+| --- | --- |
+| claude × artifact | 300 |
+| claude × chat | 216 |
+| gemini × chat | 5 |
+| grok × chat | 2 |
+| chatgpt × chat | 1 |
+
+Gemini, Grok and ChatGPT have **zero** artifacts, so `/providers/gemini/chats/`
+would be byte-identical to the existing `/providers/gemini/`. And every artifact
+on the site is Claude's, so `/providers/claude/artifacts/` (300) duplicates
+`/artifacts/` (300) exactly, while `/providers/claude/chats/` (216) is 96% of
+`/chats/` (224). All five combinations duplicate a page that already exists —
+about 10 new paginated URLs carrying no new information, which is the opposite of
+the "real depth" this item was for. Item 2's facets give a reader the same
+provider+kind narrowing with no new URLs.
+
+**Re-check when a second provider has entries of both kinds.** The condition to
+build is a real split, not a page count: emit `/providers/[p]/[kind]/` only where
+the provider has both kinds *and* ≥5 of the kind being listed.
 
 **Explicitly not doing:** `tag × kind`. That is ~1,000 near-empty pages, the same
 mistake as item 1 but larger.
 
-### [ ] 4. Decide on the `status` field: read it or delete it
+### [x] 4. The `status` field is now read — shipped 2026-07-27
 
 `status: z.enum(['live','dead','removed'])` is declared in
 `src/content.config.ts:33` and hardcoded to `"live"` by `scripts/ingest.ts:166`.
 Verified never read anywhere in `src/` or `scripts/`. Zero entries are currently
 non-live. A schema field nothing consumes is dead weight either way.
 
-- **Option A** — filter `status !== 'live'` out of the listings and the sitemap,
-  one line in a shared helper in `src/lib/entries.ts`.
-- **Option B** — delete the field from the schema, the ingest script, and the
-  524 entry files (mechanical, and `data/entries.csv` has to match).
+Resolved as Option A — filtered at build time. This is not the banned "dead-link
+checking": that ban is on *automated* checking, and this reads a flag a human set
+by hand.
 
-**Needs your call:** Option A is not the banned "dead-link checking" — that ban
-is on *automated* checking, and this reads a flag a human set by hand. Saying so
-out loud rather than reinterpreting the ban quietly.
+**How it works:** `liveEntries()` in `src/lib/entries.ts` is now the only thing in
+the codebase that calls `getCollection('entries')`. It filters `status === 'live'`,
+and every one of the 17 former call sites goes through it — including the
+`getStaticPaths` of both detail routes. So a non-live entry gets **no page at
+all**, and therefore falls out of the sitemap, OG images, the Pagefind index,
+related-entries, RSS, llms.txt and every count with no extra plumbing. Its URL
+404s into the styled 404 page, which lists recent entries.
+
+`dead` and `removed` deliberately behave the same. Keeping a tombstone page alive
+for `dead` would preserve the URL, but `removed` means an editor pulled the entry
+— sometimes because it exposed someone's personal details — and that page must
+not survive. One behaviour, and the stricter one.
+
+**Verified** by flipping one `featured: true` entry to `status: "dead"` and
+rebuilding: no detail page, no OG image, 0 sitemap hits, 0 homepage hits, 0 tag
+page hits, counts 524 → 523, Pagefind 524 → 523 pages, internal link check still
+clean. Then reverted. Re-run that flip if you touch `liveEntries()` — with all
+entries live, nothing else exercises this path.
+
+**If a 404 on a previously indexed URL ever matters,** the options are a redirect
+map or a tombstone page for `dead` only. Not built: zero entries are non-live, and
+`removed` must 404 regardless.
 
 ### [ ] 5. `/random`
 
@@ -119,4 +172,5 @@ reasons and the adjacent-but-open items (1, 4) stay here.
 
 Related entries (`relatedEntries()` in `src/lib/entries.ts`), tag counts on
 `/tags/`, dark mode, OG images (`astro-og-canvas`), RSS, sitemap, `llms.txt`,
-JSON-LD, `/stats`, Pagefind search itself, the post-build internal link check.
+JSON-LD, `/stats`, Pagefind search itself, the post-build internal link check,
+Pagefind `kind`/`provider`/`tag` facets (item 2), and the `status` filter (item 4).
