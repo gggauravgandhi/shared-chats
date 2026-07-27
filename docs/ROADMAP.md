@@ -61,6 +61,11 @@ Pagefind and need no new dependency.
   values in those `data-` attributes. This is on the `<h1>` in `EntryDetail.astro`.
 - **Pagefind skips `hidden` elements.** A hidden div of filter values indexes as
   nothing. The tag facet therefore hangs off the *visible* tag pills.
+- **Adjacent inline elements get no word boundary.** As bare adjacent `<span>`s
+  the pills indexed as one merged token — `aicodingdspy` — so the tag words were
+  still unsearchable while looking fixed. They are now `<li>` children of a
+  `<ul>`, the same shape `/tags/` uses. The `Indexed N filters` line cannot catch
+  this; only reading a fragment's `content` tail can.
 - The tag pills lost their `data-pagefind-ignore` on purpose: a tag is the only
   place a topic word like `three-js` appears on the page, so ignoring that block
   had made tags entirely unsearchable. Now every tag is indexed as text, while

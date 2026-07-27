@@ -126,19 +126,15 @@ const path = entryPath(entry);
         "three-js" appears on the page, so ignoring this block left tags unsearchable.
         Tags at or above TAG_FACET_MIN also carry a filter value. Pagefind skips
         hidden elements, so the facet has to hang off the visible pill. */}
-    <div class="mt-6 flex flex-wrap gap-1.5">
+    <ul class="mt-6 flex flex-wrap gap-1.5">
       {
-        tags.map((t) =>
-          facet.has(t) ? (
-            <span data-pagefind-filter={`tag:${t}`}>
-              <TagPill tag={t} />
-            </span>
-          ) : (
+        tags.map((t) => (
+          <li data-pagefind-filter={facet.has(t) ? `tag:${t}` : undefined}>
             <TagPill tag={t} />
-          )
-        )
+          </li>
+        ))
       }
-    </div>
+    </ul>
 
     {
       hasBody && (
