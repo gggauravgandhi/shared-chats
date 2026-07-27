@@ -1,6 +1,6 @@
 ---
 title: "Tech Roles Salary Visualization"
-description: "Explore tech salary ranges across 75+ roles from junior to CTO. Interactive visualization with filtering by category."
+description: "An interactive chart ranking salary ranges for over 75 tech roles, from junior engineer to CTO, sortable and filterable by category like engineering or data."
 source_url: "https://claude.ai/public/artifacts/7a7bc476-9a91-41db-a191-ab0c548617c4"
 provider: "claude"
 tags: ["data-viz", "interactive"]

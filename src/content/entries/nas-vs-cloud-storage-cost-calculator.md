@@ -1,6 +1,6 @@
 ---
 title: "NAS vs Cloud Storage Cost Calculator"
-description: "Compare NAS vs cloud storage costs with our interactive calculator. Get instant ROI analysis, power consumption data & savings projections."
+description: "Interactive calculator comparing NAS hardware and power costs against cloud storage subscription costs over a chosen time horizon, with break-even analysis."
 source_url: "https://claude.ai/public/artifacts/6d736a0c-77e7-487c-8c46-c1adc2473465"
 provider: "claude"
 tags: ["calculators", "budgeting", "interactive"]

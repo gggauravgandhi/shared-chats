@@ -1,6 +1,6 @@
 ---
 title: "Tech Roadmap with Custom Learning Plan"
-description: "Frontend Developer Roadmap. Browse ResourcesCustom Learning Plan. Technical Skills. People-Oriented Skills. Core Fundamentals. HTMLSee Resources. CSS / SCSSSee"
+description: "A frontend developer skill roadmap you can browse by category, pick learning resources from, and assemble into a personal, trackable study plan with progress."
 source_url: "https://claude.ai/public/artifacts/30065653-4a11-4ede-b7ba-98829a7e6547"
 provider: "claude"
 tags: ["developer-tools", "project-management", "web-dev"]

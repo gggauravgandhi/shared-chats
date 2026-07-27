@@ -1,6 +1,6 @@
 ---
 title: "Academic Prompt Comparison Dashboard"
-description: "Practical Skills. Develops professional communication and problem-solving abilities. AI-Powered Prompt Generator. Enter your current assignment prompt or"
+description: "A dashboard that takes an assignment prompt and generates alternate versions of it, letting students compare wording and structure side by side."
 source_url: "https://claude.ai/public/artifacts/64f39862-55cf-40a0-ae55-18c24bee7ae0"
 provider: "claude"
 tags: ["ai-chatbots", "dashboard", "generator", "prompt"]

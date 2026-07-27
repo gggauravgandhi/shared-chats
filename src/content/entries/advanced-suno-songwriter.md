@@ -1,6 +1,6 @@
 ---
 title: "Advanced Suno Songwriter"
-description: "Create professional Suno AI songs with advanced lyric generation, style optimization, and quality controls. Built with Claude AI for songwriters."
+description: "A songwriting tool for Suno AI that helps draft lyrics, tune musical style, and refine prompt quality before you generate a finished, polished track."
 source_url: "https://claude.ai/public/artifacts/fa6e94c9-671d-44b6-b69d-bb8f5958fc76"
 provider: "claude"
 tags: ["tool", "advanced", "suno"]

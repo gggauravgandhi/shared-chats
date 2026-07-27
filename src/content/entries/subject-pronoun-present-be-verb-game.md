@@ -1,6 +1,6 @@
 ---
-title: "Subject Pronoun + Present \"Be\" Verb Game"
-description: "Master English \"be\" verbs with this interactive grammar game! Practice I am/you are/he is patterns through 20 engaging questions."
+title: "Subject Pronoun and Present \"Be\" Verb Game"
+description: "A 20-question English grammar game that drills subject pronouns paired with am/is/are, tracking score and progress through a glassmorphism-styled interface."
 source_url: "https://claude.ai/public/artifacts/f4a7257c-5796-41c3-8ce1-373b8b46bb8c"
 provider: "claude"
 tags: ["language-learning", "game", "grammar", "interactive"]

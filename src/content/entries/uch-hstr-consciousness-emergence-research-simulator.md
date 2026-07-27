@@ -1,6 +1,6 @@
 ---
 title: "UCH-HSTR Consciousness Emergence Research Simulator"
-description: "Explore consciousness emergence through interactive quantum visualization. Advanced UCH-HSTR simulator with real-time metrics."
+description: "An interactive canvas visualization with adjustable sliders exploring a speculative theoretical framework's model of consciousness emergence and its metrics."
 source_url: "https://claude.ai/public/artifacts/81aff527-95bf-470e-a6b2-d1dc0e2e1816"
 provider: "claude"
 tags: ["simulations", "analytics", "physics", "visualization"]

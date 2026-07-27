@@ -1,6 +1,6 @@
 ---
-title: "⚽ Football Character Creator ⚽"
-description: "CREATE YOUR FOOTBALL LEGEND ⚽. Design an epic football character and bring them to life with AI! Next Gen and Collegiate Programmes"
+title: "Football Character Creator"
+description: "A form-based character builder for a youth football programme. Users fill in traits for a player persona, with a progress bar tracking form completion."
 source_url: "https://claude.ai/public/artifacts/c25b787e-dbb1-46c2-91b4-da1e907af51b"
 provider: "claude"
 tags: ["art-design-music", "sports"]

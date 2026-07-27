@@ -1,6 +1,6 @@
 ---
 title: "SIP Calculator"
-description: "Calculate SIP returns with step-up investments, visualize growth charts, and plan your financial future."
+description: "Calculates the future value of a monthly SIP investment with optional yearly step-up increases, showing total invested, total returns, and a growth chart."
 source_url: "https://claude.ai/public/artifacts/7e619f3b-d559-4662-bd72-ece131206a81"
 provider: "claude"
 tags: ["calculators", "finance"]

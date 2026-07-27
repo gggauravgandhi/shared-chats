@@ -1,6 +1,6 @@
 ---
 title: "Fantasy Football Draft Scheduler"
-description: "Schedule your fantasy football draft effortlessly! Find the perfect date with this interactive availability tracker."
+description: "An availability poll for coordinating a fantasy football draft date, letting league members mark which days and times work for them each week."
 source_url: "https://claude.ai/public/artifacts/d8dfc096-3dd9-4abb-ac36-c141e2a4672d"
 provider: "claude"
 tags: ["productivity", "interactive", "planner", "sports"]

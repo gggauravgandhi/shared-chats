@@ -1,6 +1,6 @@
 ---
 title: "Daur-e-Sharia Analytics Dashboard"
-description: "13 Jul 2025 — Explore interactive Islamic education analytics with stunning charts & real-time masjid attendance data. Built with Claude AI for seamless"
+description: "A dashboard tallying attendance at an Islamic study course across mosques, breaking totals down by mosque, gender, and a chart of attendance figures."
 source_url: "https://claude.ai/public/artifacts/8e7bacb9-c13c-40bc-b2cd-d8e5e4d0de82"
 provider: "claude"
 tags: ["data-viz", "analytics", "dashboard", "interactive"]

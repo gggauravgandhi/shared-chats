@@ -1,6 +1,6 @@
 ---
-title: "Skills Claude vs Sub-agents : Les différences clés"
-description: "Les Skills ressemblent superficiellement aux sub-agents, mais ils représentent en réalité une amélioration fondamentale de la manière dont Claude gère le"
+title: "Skills vs Sub-agents: Key Differences"
+description: "A French-language explainer page comparing Claude Skills and sub-agents side by side, covering how each manages context and when to use one over the other."
 source_url: "https://claude.ai/public/artifacts/94396d4a-1fb6-4de7-9f5a-62a857c9e412"
 provider: "claude"
 tags: ["reference-guides", "skills", "sub"]

@@ -1,6 +1,6 @@
 ---
 title: "PM Skills Builder + Marketing Manager AI"
-description: "Build PM skills & generate marketing content with AI. Interactive skills matrix, case studies & content generator."
+description: "A dashboard mapping marketing work experience onto product-management skill categories with evidence, plus a generator for drafting marketing posts."
 source_url: "https://claude.ai/public/artifacts/4f2d0024-ffd7-4aac-82a0-cf4eea0347e7"
 provider: "claude"
 tags: ["generators", "interactive", "marketing"]

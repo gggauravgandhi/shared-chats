@@ -1,6 +1,6 @@
 ---
 title: "Power System Simulator Market Report"
-description: "... skills required for utility and research careers. Research institutions use simulators to validate emerging technologies including advanced storage"
+description: "A syndicated market-research report on power system simulator software, covering market size, growth drivers, segments, and competitive landscape through 2032."
 source_url: "https://claude.ai/public/artifacts/a378e628-8381-433f-9646-dede9e90ef4b"
 provider: "claude"
 tags: ["simulations", "report"]

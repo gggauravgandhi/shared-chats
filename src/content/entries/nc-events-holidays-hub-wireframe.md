@@ -1,6 +1,6 @@
 ---
 title: "NC Events & Holidays Hub - Wireframe"
-description: "Explore NC&#x27;s interactive events & holidays hub with heat maps, visual bubbles & geographic mapping. Built with Claude AI for seamless planning."
+description: "Interactive wireframe mockup for a North Carolina events and holidays hub, with toggled heat-map and bubble views for browsing event categories."
 source_url: "https://claude.ai/public/artifacts/c482ba51-601a-4fc1-9fce-8e82ee4910b3"
 provider: "claude"
 tags: ["art-design-music", "interactive", "map"]

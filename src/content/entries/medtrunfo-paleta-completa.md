@@ -1,6 +1,6 @@
 ---
-title: "MedTrunfo - Paleta Completa"
-description: "Demo da Interface. Dashboard do Estudante MedTrunfo. Navegação Principal. Menu intuitivo e organizado. Novidade Tech: Nossa IA agora pode simular casos"
+title: "MedTrunfo Color Palette Demo"
+description: "Portuguese-language demo dashboard for a medical education platform, showing its full color palette applied across a student dashboard mockup."
 source_url: "https://claude.ai/public/artifacts/3ee2b28e-74c3-47c9-b59a-54708e43cd43"
 provider: "claude"
 tags: ["web-ui", "dashboard"]

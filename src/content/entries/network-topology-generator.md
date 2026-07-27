@@ -1,6 +1,6 @@
 ---
-title: "Network Topology Generator"
-description: "Generate interactive network topology diagrams instantly - drag devices, export PNG/JSON, test multiple configurations."
+title: "Network Topology Diagram Generator"
+description: "Interactive tool for building network topology diagrams: add devices to a canvas, arrange connections, and export the result as an image or file."
 source_url: "https://claude.ai/public/artifacts/f56913c4-7cdc-4dfc-b9fd-ea5efd403879"
 provider: "claude"
 tags: ["developer-tools", "diagram", "generator", "interactive"]

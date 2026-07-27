@@ -1,6 +1,6 @@
 ---
 title: "Team Icebreaker Game"
-description: "Share one surprising thing you learned about a teammate today, or mention someone whose answer really resonated with you!"
+description: "A slide-based icebreaker for team meetings that steps a group through get-to-know-you questions and prompts to share what they learned about a teammate."
 source_url: "https://claude.ai/public/artifacts/209bff41-9919-48c7-811c-c3b0f1cd3b88"
 provider: "claude"
 tags: ["games", "icebreaker", "team"]

@@ -1,6 +1,6 @@
 ---
 title: "AI Fundamentals Course Schedule"
-description: "Master AI fundamentals with this comprehensive 2-day course schedule covering machine learning, ethics & hands-on activities."
+description: "A two-day course schedule covering AI fundamentals, including machine learning basics, ethics discussions, and hands-on activities for each session."
 source_url: "https://claude.ai/public/artifacts/b4af886b-ea01-4f63-9b96-694a18843e03"
 provider: "claude"
 tags: ["productivity", "education", "machine-learning", "planner"]

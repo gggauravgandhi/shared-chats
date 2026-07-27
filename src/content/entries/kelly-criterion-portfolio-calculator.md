@@ -1,6 +1,6 @@
 ---
 title: "Kelly Criterion Portfolio Calculator"
-description: "Kelly Criterion Portfolio Calculator. Educational purposes only - Not investment advice. Strategy Parameters. Win Rate (%). Win/Loss Ratio. Initial Capital"
+description: "A calculator that applies the Kelly criterion to portfolio allocation, showing suggested weights and Monte Carlo simulations of growth paths."
 source_url: "https://claude.ai/public/artifacts/44958215-8c97-4f25-a21d-b782b27f9395"
 provider: "claude"
 tags: ["portfolios-resumes", "calculator", "finance"]

@@ -1,6 +1,6 @@
 ---
 title: "The Realm of Emotia - Emotional Intelligence Game"
-description: "The Realm of Emotia - Emotional Intelligence Game. ... Advanced Mini-Games for skill building; • Cultural Context for Indian students; • Real-World Challenges"
+description: "An RPG-style game that teaches emotional-intelligence skills through realms, mini-games, badges, and quests, with examples drawn from Indian school life."
 source_url: "https://claude.ai/public/artifacts/f2d050bc-a7b7-4d4b-863e-f4c8453bc386"
 provider: "claude"
 tags: ["games", "emotia", "realm"]

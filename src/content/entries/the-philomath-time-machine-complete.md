@@ -1,6 +1,6 @@
 ---
 title: "The Philomath Time Machine - Complete"
-description: "As students of the 23rd century - supposedly among the intellectual elite - you&#x27;ve been entrusted with your own Historical Time Travel Machine: the"
+description: "A history quiz game that drops you into a described scene from the past and asks you to identify the civilization and era, with sardonic feedback either way."
 source_url: "https://claude.ai/public/artifacts/947c14b1-8f0e-47e3-9cf6-9ac1f983aa16"
 provider: "claude"
 tags: ["lessons-courses", "history", "travel"]

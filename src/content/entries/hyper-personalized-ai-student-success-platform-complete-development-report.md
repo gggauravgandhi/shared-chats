@@ -1,6 +1,6 @@
 ---
-title: "Hyper-Personalized AI Student Success Platform - Complete Development Report"
-description: "Get personalized AI tutoring from Grade 9 to career - auto-generated lessons, encrypted diary, lifelong mentorship."
+title: "Hyper-Personalized AI Student Success Platform"
+description: "A rendered report proposing an AI mentoring platform for Indian schools, covering features, a student journey from grade 9 to career, and tech architecture."
 source_url: "https://claude.ai/public/artifacts/23edc8fc-caa8-48fc-9144-d0d7bbc20682"
 provider: "claude"
 tags: ["lessons-courses", "hyper", "personalized"]

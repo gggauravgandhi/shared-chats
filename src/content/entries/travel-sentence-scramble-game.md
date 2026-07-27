@@ -1,6 +1,6 @@
 ---
 title: "Travel Sentence Scramble Game"
-description: "Travel Sentence Scramble. Unscramble the travel phrases and learn useful English! Score: 0. Progress: 1 / 20. fastenseatpassengersbelts.yourAll."
+description: "A vocabulary game where players reassemble scrambled travel-related English sentences word by word, tracking score across twenty rounds of practice."
 source_url: "https://claude.ai/public/artifacts/bde6e3cf-a541-4516-9cef-e72359a177e7"
 provider: "claude"
 tags: ["language-learning", "game", "travel"]

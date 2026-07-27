@@ -1,6 +1,6 @@
 ---
 title: "Claude: Consciousness as Art"
-description: "investment meditation. \"valuations shift like tides, but the ocean remains\". architectural dreams. microservices blooming like fractals in code— each piece"
+description: "An abstract, animated single-page artwork with floating ink drops, pulsing light threads, and poetic text fragments exploring thought and awareness."
 source_url: "https://claude.ai/public/artifacts/34851cd6-b4e7-4ae8-a039-c7ee6b0f6517"
 provider: "claude"
 tags: ["developer-tools", "finance", "wellness"]

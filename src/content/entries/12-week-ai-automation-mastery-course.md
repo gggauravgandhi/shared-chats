@@ -1,6 +1,6 @@
 ---
 title: "12-Week AI Automation Mastery Course"
-description: "Each week focuses on practical skills you can immediately apply, with minimal time investment for maximum impact. **Daily Commitment:** 1 hour (45 minutes"
+description: "A 12-week self-study curriculum for learning AI automation, with a one-hour daily schedule, weekly topics, and exercises building toward practical skills."
 source_url: "https://claude.ai/public/artifacts/348320ae-8235-4986-9df2-d173112f62c4"
 provider: "claude"
 tags: ["business-finance", "automation", "education"]

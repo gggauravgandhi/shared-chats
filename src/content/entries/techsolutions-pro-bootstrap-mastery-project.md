@@ -1,6 +1,6 @@
 ---
-title: "TechSolutions Pro - Bootstrap Mastery Project"
-description: "Our Skills. Web Development 95%. UI/UX Design 90%. Digital Marketing 85%. 2019 - Company Founded. Started with a vision to transform businesses through"
+title: "Bootstrap Mastery Website Learning Project"
+description: "A fictional agency homepage built as a Bootstrap practice project, with a hero section, service cards, team photos, pricing tiers, and a contact form layout."
 source_url: "https://claude.ai/public/artifacts/923ff805-de7e-40a1-8bdd-3d5143d0fa14"
 provider: "claude"
 tags: ["business-finance", "design", "marketing", "web-dev"]

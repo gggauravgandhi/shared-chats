@@ -1,6 +1,6 @@
 ---
-title: "PowerBI Semantic Model Documentation Generator - Complete Implementation Guide"
-description: "Generate complete PowerBI documentation automatically with AI-enhanced descriptions, visual diagrams & multiple formats."
+title: "PowerBI Semantic Model Documentation Generator"
+description: "A Python implementation guide for extracting Power BI semantic model metadata, enhancing it with AI-written descriptions, and generating docs and diagrams."
 source_url: "https://claude.ai/public/artifacts/5a8f0989-f923-47ae-bb2a-a7628257b06f"
 provider: "claude"
 tags: ["generators", "powerbi", "semantic"]

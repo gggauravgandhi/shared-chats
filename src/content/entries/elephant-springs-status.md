@@ -1,6 +1,6 @@
 ---
 title: "Elephant Springs Status"
-description: "Track Elephant Springs status in real-time with this interactive dashboard. Update & monitor spring conditions instantly."
+description: "A minimal toggle page for marking a set of springs as on or off, showing the current status and a timestamp for whoever checks it next on the team."
 source_url: "https://claude.ai/public/artifacts/cfaf6ef1-ac38-4736-8fa2-856c034ccfd3"
 provider: "claude"
 tags: ["productivity", "dashboard", "interactive"]

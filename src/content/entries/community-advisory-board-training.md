@@ -1,6 +1,6 @@
 ---
 title: "Community Advisory Board Training"
-description: "Personal Development. Continuously learn about health research; Develop research literacy skills; Enhance communication abilities; Build leadership competencies"
+description: "A slide deck for training community advisory board members, covering health research literacy, communication skills, leadership, and personal development."
 source_url: "https://claude.ai/public/artifacts/7ad2c08c-5dd8-4cca-a902-b05b1a99daf3"
 provider: "claude"
 tags: ["presentations", "advisory", "community"]

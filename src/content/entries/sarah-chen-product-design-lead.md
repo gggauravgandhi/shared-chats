@@ -1,6 +1,6 @@
 ---
-title: "Sarah Chen — Product Design Lead"
-description: "Product Design Lead specializing in enterprise SaaS and design systems. Former architect bringing spatial thinking to digital experiences."
+title: "Product Design Lead - UX Portfolio Site"
+description: "A portfolio site for a product design lead, presenting case studies, a design philosophy statement, and a contact section aimed at enterprise design work."
 source_url: "https://claude.ai/public/artifacts/b7659aff-fe0a-4777-9d3b-3c2bc7f33f6d"
 provider: "claude"
 tags: ["portfolios-resumes", "business", "design", "startup"]

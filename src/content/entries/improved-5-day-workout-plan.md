@@ -1,6 +1,6 @@
 ---
 title: "Improved 5-Day Workout Plan"
-description: "Get a complete 5-day muscle building workout plan with nutrition guide, rep ranges, and progression tips."
+description: "A rendered five-day muscle-building split covering chest, back, legs, and shoulders, with rep ranges, weekly volume targets, and a nutrition guide."
 source_url: "https://claude.ai/public/artifacts/a90bef26-fd22-4ced-b1e2-b009235d3b2a"
 provider: "claude"
 tags: ["health-fitness", "fitness", "guide", "nutrition"]

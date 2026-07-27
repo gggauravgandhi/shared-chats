@@ -1,6 +1,6 @@
 ---
 title: "Complete Workout Tracker App"
-description: "Track workouts, log exercises, and monitor fitness progress with this complete workout tracker app. Built with Claude AI for seamless training."
+description: "A React workout tracker with preset strength routines, per-exercise sets, reps and weight targets, and progress tracking as each workout is completed."
 source_url: "https://claude.ai/public/artifacts/9ce3385d-8218-4447-9fd8-ebe61e626b67"
 provider: "claude"
 tags: ["health-fitness", "fitness", "tracker"]

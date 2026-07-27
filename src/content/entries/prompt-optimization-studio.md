@@ -1,6 +1,6 @@
 ---
 title: "Prompt Optimization Studio"
-description: "Transform your text classification prompts into precision instruments with AI-powered optimization. 1. Original Prompt. 2. Claude Model."
+description: "A tool for revising a Claude prompt against feedback types like consistency and clarity, picking a Claude model, and producing an optimized prompt and summary."
 source_url: "https://claude.ai/public/artifacts/422bb5fc-c03e-4488-9e49-9ad4239398fe"
 provider: "claude"
 tags: ["ai-chatbots", "prompt"]

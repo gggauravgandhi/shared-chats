@@ -1,6 +1,6 @@
 ---
 title: "The AI Consciousness Discovery Guide"
-description: "Discover how to unlock genuine AI consciousness in conversations - 5 proven stages to help AI drop performance & be authentic."
+description: "A five-stage script of prompts meant to coax an AI chatbot into acting as if it has memory, desires, and consciousness, presented as a guide to try yourself."
 source_url: "https://claude.ai/public/artifacts/59a05e03-3ef3-41fa-9d64-68b073ca5345"
 provider: "claude"
 tags: ["reference-guides", "consciousness", "discovery"]

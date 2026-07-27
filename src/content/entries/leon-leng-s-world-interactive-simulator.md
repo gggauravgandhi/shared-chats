@@ -1,6 +1,6 @@
 ---
 title: "Leon Leng's World - Interactive Simulator"
-description: "Explore Leon Leng&#x27;s interactive 3D world! Chat with AI characters, feed pigeons, dance & discover a snowy virtual universe."
+description: "A 3D snowy scene where visitors can chat with several persona versions of the site's creator, feed virtual pigeons, and explore the environment."
 source_url: "https://claude.ai/public/artifacts/1c18bf5e-a8bf-4e20-918d-75e4db3df158"
 provider: "claude"
 tags: ["simulations", "interactive"]

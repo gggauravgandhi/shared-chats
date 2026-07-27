@@ -1,6 +1,6 @@
 ---
 title: "Hotel Booking Game"
-description: "Practice English with this interactive hotel booking game! Generate random scenarios, learn vocabulary, and improve conversation skills."
+description: "An ESL practice tool that generates random hotel booking scenarios with room details and activities, used to build vocabulary for travel conversations."
 source_url: "https://claude.ai/public/artifacts/33027ddb-59b7-4acb-ab00-b876900c6bfa"
 provider: "claude"
 tags: ["language-learning", "esl", "travel", "vocabulary"]

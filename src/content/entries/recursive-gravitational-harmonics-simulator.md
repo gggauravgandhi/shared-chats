@@ -1,6 +1,6 @@
 ---
 title: "Recursive Gravitational Harmonics Simulator"
-description: "Explore gravitational waves, dark energy fields & cosmic harmonics in this interactive physics simulator. Built with Claude AI - experience the universe!"
+description: "A canvas-based physics simulator visualizing gravitational wave and harmonic field patterns, with sliders for adjusting the underlying simulation parameters."
 source_url: "https://claude.ai/public/artifacts/b8bfe5dc-ce3a-46e4-9f19-ae4d2a6d5222"
 provider: "claude"
 tags: ["math-science", "interactive", "physics", "simulation"]

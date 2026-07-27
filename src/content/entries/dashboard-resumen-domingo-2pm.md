@@ -1,6 +1,6 @@
 ---
-title: "🍰 Dashboard Resumen - Domingo 2PM"
-description: "Create stunning interactive business dashboards with real-time sales tracking & progress visualization. Built with Claude AI - transform your data today!"
+title: "Dashboard Resumen - Domingo 2PM"
+description: "Panel de ventas para varios locales de una pastelería en Guayaquil, con ranking por sucursal y avance semanal hacia las metas de ventas de 2023 y 2024."
 source_url: "https://claude.ai/public/artifacts/53cbefef-8888-4473-8400-d610629b91f5"
 provider: "claude"
 tags: ["data-viz", "business", "dashboard", "sales"]

@@ -1,6 +1,6 @@
 ---
 title: "30-Year Portfolio Analysis"
-description: "Compare 30-year portfolio performance with interactive charts & analysis. See your allocation vs benchmarks, risk metrics & growth projections."
+description: "An interactive tool comparing a custom investment portfolio against benchmarks over 30 years, with allocation charts, risk metrics, and growth simulations."
 source_url: "https://claude.ai/public/artifacts/90882b98-2401-4c68-b8c1-93643c9ff1ee"
 provider: "claude"
 tags: ["portfolios-resumes", "analytics", "interactive"]

@@ -1,6 +1,6 @@
 ---
 title: "Marketing Cloud Personalization Mock Exam"
-description: "This exam contains 30 multiple-choice questions Time limit: 90 minutes. Submit your exam when ready - answers will be revealed automatically"
+description: "A 30-question, 90-minute mock certification exam for Salesforce Marketing Cloud Personalization, with automatic answer reveal on submission."
 source_url: "https://claude.ai/public/artifacts/52c3791e-907f-4aad-afda-45b9537d98cd"
 provider: "claude"
 tags: ["flashcards-study", "interactive", "marketing", "test-prep"]

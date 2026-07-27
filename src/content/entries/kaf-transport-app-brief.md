@@ -1,6 +1,6 @@
 ---
 title: "KAF Transport App Brief"
-description: "Complete Bubble.io transport app development brief with workflows, specs & integration requirements. Built with Claude AI - Get your quote today!"
+description: "A product brief for Bubble.io developers laying out a transport app's day-in-the-life narrative, business workflows, features, and data integrations."
 source_url: "https://claude.ai/public/artifacts/1355d6ea-bfa4-4343-9569-546db8940376"
 provider: "claude"
 tags: ["web-ui", "automation"]

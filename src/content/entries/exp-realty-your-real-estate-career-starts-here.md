@@ -1,6 +1,6 @@
 ---
 title: "eXp Realty - Your Real Estate Career Starts Here"
-description: "Monday: Prospecting and Lead Generation · Tuesday: Listing and Buyer Presentations · Wednesday: Contract and Negotiation Skills · Thursday: Technology and"
+description: "A recruiting slide deck for real estate agents, outlining a weekly training schedule covering prospecting, listings, contracts, and technology skills."
 source_url: "https://claude.ai/public/artifacts/5476e566-6d03-4ba2-b8db-5a16d43f1857"
 provider: "claude"
 tags: ["presentations", "hr"]

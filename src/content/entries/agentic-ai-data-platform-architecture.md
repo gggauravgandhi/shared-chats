@@ -1,6 +1,6 @@
 ---
 title: "Agentic AI Data Platform Architecture"
-description: "Build enterprise AI data platforms with agentic architecture. Complete technical guide with code examples."
+description: "A technical write-up of an agentic AI data platform, walking through its architecture layer by layer with code examples for building the system."
 source_url: "https://claude.ai/public/artifacts/1e26154f-8129-4fef-a7ef-a5d579df0e66"
 provider: "claude"
 tags: ["ai-chatbots", "business", "guide"]

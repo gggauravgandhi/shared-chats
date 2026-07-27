@@ -1,6 +1,6 @@
 ---
 title: "Day 2 Tasks - Prompt Engineering Training"
-description: "Include responsibilities, skills, and KPIs.\" Text. Role-Based. \"You are Head of HR. Draft an internal announcement email about the 2025 Leadership Program"
+description: "A slide deck of group exercises for a prompt-engineering workshop, with tasks split across leadership, finance, IT, HR, and marketing departments."
 source_url: "https://claude.ai/public/artifacts/9d8cbea6-58e9-4855-807d-b4f399fa25f9"
 provider: "claude"
 tags: ["ai-chatbots", "prompt"]

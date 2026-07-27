@@ -1,6 +1,6 @@
 ---
 title: "Complete Ethical Hacking Roadmap & Action Plan"
-description: "... Skill Validation Milestones - **Month 2:** Complete TryHackMe beginner paths - **Month 4:** Successfully compromise 10 VulnHub VMs - **Month 6:** Pass"
+description: "A rendered markdown study plan for learning ethical hacking, broken into weekly phases covering lab setup, Kali Linux, and hands-on practice platforms."
 source_url: "https://claude.ai/public/artifacts/e3fa8015-2f98-44ad-b8c4-86d1217cad04"
 provider: "claude"
 tags: ["reports-analysis", "project-management"]

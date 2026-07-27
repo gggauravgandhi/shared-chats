@@ -1,6 +1,6 @@
 ---
-title: "bun-redis-performance-analysis.md"
-description: "**Real-time systems**: Gaming, chat, financial trading platforms 4. **Data pipelines**: Bulk data processing with Redis ### When Differences Are Minimal: 1"
+title: "Bun vs Redis Performance Analysis"
+description: "A technical breakdown of why Bun's native Redis client outperforms ioredis, covering its Zig implementation, RESP3 protocol, automatic pipelining, and memory."
 source_url: "https://claude.ai/public/artifacts/d2ed28e8-01af-4754-9727-5e060cc80ef4"
 provider: "claude"
 tags: ["business-finance", "stocks"]

@@ -1,6 +1,6 @@
 ---
 title: "Too & So Agreement Game"
-description: "Too & So Agreement Game. Practice using \"too\" and \"so\" to show agreement! 0. Score. 1. Question. 0. Streak. I love chocolate ice cream. Sarah says:."
+description: "A grammar quiz game where players pick the correct response using too or so to agree with a statement, with a running score and streak counter."
 source_url: "https://claude.ai/public/artifacts/76b31f1e-f6e0-42e2-9f1a-93792f899c3d"
 provider: "claude"
 tags: ["games", "tracker"]

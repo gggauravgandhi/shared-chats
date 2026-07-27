@@ -1,6 +1,6 @@
 ---
 title: "HFI Campaign Banners"
-description: "\"The most important skill for UX professionals is understanding human behavior and psychology.\" Beyond Tools. Beyond Theory. Beyond Limits. Master the"
+description: "A set of square promotional banner designs for a UX training campaign, each using a different background pattern and headline around professional growth."
 source_url: "https://claude.ai/public/artifacts/47aaf626-b367-4047-826c-6ae527319ff3"
 provider: "claude"
 tags: ["business-finance", "design"]

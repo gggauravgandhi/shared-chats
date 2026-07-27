@@ -1,6 +1,6 @@
 ---
-title: "Meeting Summary Template"
-description: "Transform meeting transcripts into organized, scannable summaries with structured topics, action items, and key decisions using this comprehensive template."
+title: "Meeting Summary Prompt Template"
+description: "Displays a copy-paste prompt for turning meeting transcripts into a structured markdown summary, organized by topic with quotes and action items."
 source_url: "https://claude.ai/public/artifacts/6ddfa7d7-c688-4192-9476-48108b59bf55"
 provider: "claude"
 tags: ["reference-guides", "template"]

@@ -1,6 +1,6 @@
 ---
 title: "Partnership Building & Management Training"
-description: "Focus on mutual benefit and shared value. Why Build Partnerships? Access More Resources. Gain access to funds, skills, and people that complement your"
+description: "Slide deck covering why and how to build organizational partnerships, including mutual benefit, resource access, and a step-by-step partnership process."
 source_url: "https://claude.ai/public/artifacts/dec0dfd0-ce04-4c92-aa2c-ca71c15672eb"
 provider: "claude"
 tags: ["presentations", "building", "partnership"]

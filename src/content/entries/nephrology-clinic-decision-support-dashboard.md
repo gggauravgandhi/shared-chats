@@ -1,6 +1,6 @@
 ---
 title: "Nephrology Clinic Decision Support Dashboard"
-description: "CKD Edema Assessment & Decision Support Dashboard. Comprehensive guidance for edema evaluation and management in chronic kidney disease patients. About Edema in"
+description: "Interactive tool for nephrology clinic staff that walks through edema location, severity, and symptoms to produce a triage urgency recommendation."
 source_url: "https://claude.ai/public/artifacts/5ec70058-df18-4a81-94a5-021093262c26"
 provider: "claude"
 tags: ["forms-surveys", "dashboard", "medical"]

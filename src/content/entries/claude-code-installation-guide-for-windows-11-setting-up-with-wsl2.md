@@ -1,6 +1,6 @@
 ---
 title: "Claude Code Installation Guide for Windows 11: Setting Up with WSL2"
-description: "... skills. ### Creating the VB.NET alternative If you&#x27;re curious about VB.NET or want to see the difference, ask Claude Code: ``` Create the same program in VB"
+description: "A step-by-step walkthrough for installing Claude Code on Windows 11 via WSL2, covering Node.js setup, npm configuration, authentication, and troubleshooting."
 source_url: "https://claude.ai/public/artifacts/03a4aa0c-67b2-427f-838e-63770900bf1d"
 provider: "claude"
 tags: ["developer-tools", "guide"]

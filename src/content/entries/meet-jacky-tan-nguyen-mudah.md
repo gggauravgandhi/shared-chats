@@ -1,6 +1,6 @@
 ---
-title: "Meet Jacky Tan Nguyen - Mudah"
-description: "When you find me = opportunity. When I find you = something&#x27;s sideways. Create your own dashboard. 5. Executive Summary First. Lead with the headline. Written"
+title: "Career Introduction Deck for a Marketplace Company"
+description: "Personal slide deck introducing a job candidate's background, work philosophy, and reasons for joining a Southeast Asian online marketplace company."
 source_url: "https://claude.ai/public/artifacts/37ebbbd7-99f1-416c-999e-f87fa1ab268f"
 provider: "claude"
 tags: ["presentations", "dashboard"]

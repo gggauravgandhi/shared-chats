@@ -1,6 +1,6 @@
 ---
 title: "EACP Security Model - Executive Summary for Pax8"
-description: "**Return on Investment:** Month 6 delivers $500K in savings from reduced Microsoft API costs alone. By month 12, the annual run rate reaches $3M in savings"
+description: "A business proposal for a token-based economic API governance layer at Pax8, covering cost drivers, rollout phases, and projected return on investment."
 source_url: "https://claude.ai/public/artifacts/9dedd08e-bb92-4136-9191-a3e850a5bd16"
 provider: "claude"
 tags: ["developer-tools", "api", "budgeting", "finance"]

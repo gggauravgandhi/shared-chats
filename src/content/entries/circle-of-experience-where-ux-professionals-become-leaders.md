@@ -1,6 +1,6 @@
 ---
 title: "Circle of Experience - Where UX Professionals Become Leaders"
-description: "\"Moving from practitioner to strategic leader required more than skills—it required a new way of thinking. That&#x27;s exactly what I found here.\" Shalaka Patil."
+description: "A landing page for a UX leadership program, built around a hero pitch, a member testimonial about moving into strategic leadership, and a signup link."
 source_url: "https://claude.ai/public/artifacts/40bc0c83-4501-44ac-988e-7ebc82678a82"
 provider: "claude"
 tags: ["web-ui", "landing-page"]

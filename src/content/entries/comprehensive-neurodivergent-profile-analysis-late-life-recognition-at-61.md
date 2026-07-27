@@ -1,6 +1,6 @@
 ---
-title: "Comprehensive Neurodivergent Profile Analysis: Late-Life Recognition at 61"
-description: "The fact that this remains effortful rather than becoming automatic indicates these are compensatory strategies rather than genuine social skill development."
+title: "Neurodivergent Profile Analysis: Late-Life Recognition"
+description: "A rendered markdown analysis connecting one person's assessment scores and lifelong experiences to a likely late-diagnosed autism spectrum profile."
 source_url: "https://claude.ai/public/artifacts/2b464a94-6763-4067-b6fe-944510ebe68d"
 provider: "claude"
 tags: ["reports-analysis", "comprehensive", "neurodivergent"]

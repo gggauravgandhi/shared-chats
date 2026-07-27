@@ -1,6 +1,6 @@
 ---
 title: "Whack-A-Mole Game"
-description: "Upload Someone You&#x27;d Like to Whack! (Optional). Got someone in mind? Upload their picture to make the game more fun! Otherwise, we&#x27;ll use a standard mole."
+description: "A whack-a-mole browser game built with React, letting players optionally upload a custom photo of someone to use as the mole they are trying to hit."
 source_url: "https://claude.ai/public/artifacts/5fa0a53a-d28b-4453-8c81-b576a2d1765a"
 provider: "claude"
 tags: ["games", "mole", "whack"]

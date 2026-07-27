@@ -1,6 +1,6 @@
 ---
 title: "Big Beautiful Bill Interactive Dashboard"
-description: "Explore $2T+ AI investments, robotics growth & demographic shifts through interactive charts. Built with Claude AI - visualize the future now."
+description: "An interactive dashboard projecting AI infrastructure investment, robotics adoption, and demographic decline through 2050, with country breakdowns and charts."
 source_url: "https://claude.ai/public/artifacts/c4f7c2f4-ff02-4bd7-9af9-f32bb7cacdd0"
 provider: "claude"
 tags: ["data-viz", "dashboard", "interactive"]

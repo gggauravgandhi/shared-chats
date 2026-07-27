@@ -1,6 +1,6 @@
 ---
 title: "Internet of Nature - Citizens Platform"
-description: "Community & Marketplace. Local Nature Groups; Equipment Exchange; Skill Sharing Network; Conservation Projects; Nature Photography Gallery; Citizen Science"
+description: "A mockup social platform for citizen naturalists, combining a featured-content section with a scrolling community updates feed for nature observations."
 source_url: "https://claude.ai/public/artifacts/c8322bfd-47f4-428e-83c0-5f3a1640d88f"
 provider: "claude"
 tags: ["tool", "internet", "nature"]

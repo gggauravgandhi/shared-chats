@@ -1,6 +1,6 @@
 ---
 title: "IELTS Speaking Week 5: Objects Mastery Part 2"
-description: "Confidence Games & Wrap-up (15 min). Using Your Proven Skills for New Success! Same structure, new topic - building confidence step by step!. 2/12. Your"
+description: "A slide-based IELTS speaking lesson on describing objects, structured as a week-5 follow-up with confidence-building exercises and a wrap-up activity."
 source_url: "https://claude.ai/public/artifacts/bdb3e50e-31d0-4143-b6e9-79b2eeb7a3d1"
 provider: "claude"
 tags: ["language-learning", "ielts"]

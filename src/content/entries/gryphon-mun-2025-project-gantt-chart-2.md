@@ -1,6 +1,6 @@
 ---
-title: "Gryphon MUN 2025 - Project Gantt Chart"
-description: "23 Aug 2025 — Building skills through collaborative practice. 🏋️ Practice. Middle School Mentoring - Week 5. CONFIDENCE BUILDING: Final encouragement"
+title: "Gryphon MUN 2025 Project Gantt Chart"
+description: "A Gantt chart tracking planning, preparation, and logistics tasks for a Model UN conference, with color-coded phases and a critical-path marker."
 source_url: "https://claude.ai/public/artifacts/499f21b6-38fa-4520-aebf-da4aecdb964a"
 provider: "claude"
 tags: ["data-viz", "chart", "project-management"]

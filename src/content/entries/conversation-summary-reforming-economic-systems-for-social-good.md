@@ -1,6 +1,6 @@
 ---
-title: "Conversation Summary: Reforming Economic Systems for Social Good"
-description: "... Gaming Potential**: Companies might manipulate activities to achieve favorable classifications ### Market Functionality **Price Discovery**: Questions about"
+title: "Reforming Economic Systems for Social Good"
+description: "A rendered markdown proposal arguing for caps on corporate ownership and for redirecting profit from institutions built on public infrastructure and labor."
 source_url: "https://claude.ai/public/artifacts/dc5a5556-6a7d-46c1-82bf-be459d09bca6"
 provider: "claude"
 tags: ["tool", "economic", "reforming"]

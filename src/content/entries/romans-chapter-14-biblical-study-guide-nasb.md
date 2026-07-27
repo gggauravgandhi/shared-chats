@@ -1,6 +1,6 @@
 ---
 title: "Romans Chapter 14 - Biblical Study Guide (NASB)"
-description: "The one who eats is not to regard with contempt the one who does not eat, and the one who does not eat is not to judge the one who eats, for God has accepted"
+description: "A verse-by-verse NASB study guide to Romans 14 on Christian liberty, with cross-references, commentary excerpts, and discussion questions for group study."
 source_url: "https://claude.ai/public/artifacts/c3a4377c-cf0f-470e-a9a9-1b26ef6e1699"
 provider: "claude"
 tags: ["flashcards-study", "guide"]

@@ -1,6 +1,6 @@
 ---
-title: "J&J Lightning - CARTO 3 Analysis"
-description: "Analyze medical device errors instantly with AI-powered CARTO 3 diagnostics. Interactive barcode simulation built with Claude AI for healthcare pros."
+title: "J&J CARTO 3 Device Error Analysis Mockup"
+description: "A mockup diagnostic dashboard simulating an AI-generated report on a catheter force-sensor error, with an event timeline, root cause, and recommendations."
 source_url: "https://claude.ai/public/artifacts/9252840c-da96-49b2-8e95-90e0c4f87090"
 provider: "claude"
 tags: ["simulations", "interactive", "medical"]

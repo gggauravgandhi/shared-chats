@@ -1,6 +1,6 @@
 ---
 title: "Claims of Fact - Interactive Lesson"
-description: "Master fact vs opinion with this interactive lesson! Practice identifying claims, test knowledge with quizzes."
+description: "An interactive writing lesson that teaches how to tell factual claims apart from opinions, with practice exercises and a quiz to check what you've learned."
 source_url: "https://claude.ai/public/artifacts/23efa1fb-9ce3-4990-bd11-f57020f88d0c"
 provider: "claude"
 tags: ["quizzes-trivia", "education", "interactive"]

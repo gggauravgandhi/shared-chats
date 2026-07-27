@@ -1,6 +1,6 @@
 ---
 title: "Weekly P&L Analysis"
-description: "2 Jul 2025 — Analyze weekly P&L performance with interactive charts showing 93.9% win rate and $1.64M portfolio growth. Built with Claude AI for data"
+description: "A 33-week trading performance dashboard charting win rate, portfolio growth, and weekly profit-and-loss figures from November 2024 through July 2025."
 source_url: "https://claude.ai/public/artifacts/87918682-e5e2-4aac-96e3-6ceabf037b82"
 provider: "claude"
 tags: ["portfolios-resumes", "interactive"]

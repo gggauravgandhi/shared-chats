@@ -1,6 +1,6 @@
 ---
 title: "Oil Volumetrics Assessment Template"
-description: "For investment decisions, additional technical and commercial evaluation is recommended. Template suitable for asset evaluation, partnership discussions"
+description: "Editable template for documenting oil-field volumetric parameters, meant to support technical and commercial evaluation for asset or partnership deals."
 source_url: "https://claude.ai/public/artifacts/1a8811c5-3441-4623-a8da-a1dd68b2fe77"
 provider: "claude"
 tags: ["forms-surveys", "finance", "template"]

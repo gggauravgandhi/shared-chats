@@ -1,6 +1,6 @@
 ---
 title: "Azure Data Factory Practice Project: Healthcare Data Pipeline"
-description: "... Skills Demonstrated ### Technical Capabilities - **Multi-format ingestion**: CSV, JSON, XML, HL7 - **Complex orchestration**: Master pipeline with sub"
+description: "A step-by-step tutorial for building a healthcare data pipeline in Azure Data Factory, covering ingestion of CSV, JSON, XML, and HL7 files, then enrichment."
 source_url: "https://claude.ai/public/artifacts/fea9a7fb-0c13-427b-987c-93a82e8fa724"
 provider: "claude"
 tags: ["developer-tools", "devops", "medical", "sales"]

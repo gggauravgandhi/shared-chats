@@ -1,6 +1,6 @@
 ---
 title: "Market Sentiment Dashboard - Trend Cycle Analysis"
-description: "28 May 2025 — This analysis focuses exclusively on market sentiment trigger levels and cycle analysis. Trading involves substantial risk of loss."
+description: "A market sentiment dashboard tracking bullish percent across roughly 14,700 stocks, with cycle analysis, sector momentum, and trading positions."
 source_url: "https://claude.ai/public/artifacts/45976733-4cab-40f6-ac7c-66ee46ec205c"
 provider: "claude"
 tags: ["reports-analysis", "dashboard", "stocks"]

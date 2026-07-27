@@ -1,6 +1,6 @@
 ---
-title: "Ignite Tanzania 🇹🇿 | Youth Summit on Business Innovation & Finance"
-description: "Ignite Tanzania represents a transformative initiative designed to empower the youth of Tanzania with essential business innovation and financial literacy"
+title: "Ignite Tanzania: Youth Summit on Business Innovation & Finance"
+description: "An event website for a Tanzanian youth summit on business innovation and financial literacy, with a hero banner, navigation, and program information."
 source_url: "https://claude.ai/public/artifacts/2cf03b3f-d4f1-4f6c-9111-9cb07597ebd8"
 provider: "claude"
 tags: ["business-finance", "ignite", "tanzania"]

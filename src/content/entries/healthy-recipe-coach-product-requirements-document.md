@@ -1,6 +1,6 @@
 ---
 title: "Healthy Recipe Coach - Product Requirements Document"
-description: "... skills, and difficulty finding affordable, personalized recipe options that match their dietary goals and lifestyle preferences. * **Customer impact"
+description: "A rendered PRD for a meal-suggestion app aimed at busy professionals, laying out milestones, user stories, risks, and a delivery timeline for the build."
 source_url: "https://claude.ai/public/artifacts/d5da2f50-6779-4d3d-b334-7d86ff911522"
 provider: "claude"
 tags: ["health-fitness", "nutrition"]

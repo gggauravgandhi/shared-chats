@@ -1,6 +1,6 @@
 ---
 title: "Session 1: AI in the Real World"
-description: "The entire human brain, Chess-playing computer, voice assistant. Machine ... Entertainment: Music streaming recommendations, video suggestions, gaming AI"
+description: "A slide-by-slide presentation introducing AI concepts through everyday examples in entertainment, business, and daily tools, navigated one slide at a time."
 source_url: "https://claude.ai/public/artifacts/c8086c20-8e79-4bff-9d25-e5fc844353d4"
 provider: "claude"
 tags: ["presentations", "chess", "interactive", "music"]

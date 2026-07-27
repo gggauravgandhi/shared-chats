@@ -1,6 +1,6 @@
 ---
 title: "Complete VN Video Editing Course - 4 Week Program"
-description: "Master VN video editing in 4 weeks with this complete course - from basic cuts to pro effects. Built with Claude AI for beginner-friendly learning."
+description: "A rendered markdown four-week lesson plan for learning the VN mobile video editor, starting with interface basics and building toward advanced editing skills."
 source_url: "https://claude.ai/public/artifacts/8a4015ab-a053-4f51-8138-6209e3d6b7a4"
 provider: "claude"
 tags: ["lessons-courses", "editing", "video"]

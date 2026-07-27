@@ -1,6 +1,6 @@
 ---
 title: "The Intellectual Sandwich: Why Students Must Make Their Own"
-description: "When we hand students pre-made intellectual sandwiches, we&#x27;re robbing them of the chance to develop the very skills they need most: the ability to think"
+description: "An essay arguing that letting AI write student work short-circuits the struggle where real learning happens, and that schools should protect that process."
 source_url: "https://claude.ai/public/artifacts/58237efd-842c-4a5a-b5cd-b2c0fc2f293c"
 provider: "claude"
 tags: ["lessons-courses", "intellectual", "sandwich"]

@@ -1,6 +1,6 @@
 ---
 title: "Generador de Meta-Prompts Maestros"
-description: "Create professional AI prompts for any industry in seconds. Built with Claude AI - generate optimized meta-prompts for marketing, education & more."
+description: "A Spanish-language tool that builds structured AI prompts for a chosen profession, tone, and objective, then keeps a history of generated prompts."
 source_url: "https://claude.ai/public/artifacts/6505020e-c858-47f8-843c-b9fa5fd35c05"
 provider: "claude"
 tags: ["ai-chatbots", "generator", "marketing"]

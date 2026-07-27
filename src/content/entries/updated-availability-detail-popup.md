@@ -1,6 +1,6 @@
 ---
 title: "Updated Availability Detail Popup"
-description: "Track team availability instantly with this interactive resource dashboard. View real-time allocation, skills, and project timelines."
+description: "A team resource-availability dashboard mockup showing allocation percentages, skills, and project assignments for a set of sample employees with charts."
 source_url: "https://claude.ai/public/artifacts/447ddb6d-78a0-42f0-9b24-595cbfb1316f"
 provider: "claude"
 tags: ["web-ui", "dashboard", "interactive"]

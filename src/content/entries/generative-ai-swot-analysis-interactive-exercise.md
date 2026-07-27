@@ -1,6 +1,6 @@
 ---
-title: "Generative AI SWOT Analysis - Interactive Exercise"
-description: "Explore AI&#x27;s impact with this interactive SWOT analysis tool. Vote on real scenarios, see multiple perspectives, spark discussions."
+title: "Generative AI SWOT Analysis Exercise"
+description: "An interactive SWOT exercise on generative AI's impact, letting users vote on scenarios and compare four stakeholder viewpoints side by side."
 source_url: "https://claude.ai/public/artifacts/8c37ced3-f914-46ac-a865-7c3eac030f44"
 provider: "claude"
 tags: ["health-fitness", "fitness", "interactive"]

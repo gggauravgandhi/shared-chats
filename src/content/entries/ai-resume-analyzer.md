@@ -1,6 +1,6 @@
 ---
 title: "AI Resume Analyzer"
-description: "Analyze resumes instantly with AI-powered hiring decisions. Get skill scores, culture fit ratings & interview questions."
+description: "Pastes a resume and a job posting side by side, then returns a hiring recommendation with skill-fit and culture-fit scores plus suggested interview questions."
 source_url: "https://claude.ai/public/artifacts/d46d8c8a-9164-4c25-a9e5-287dfa77cd4d"
 provider: "claude"
 tags: ["portfolios-resumes", "hr", "interview"]

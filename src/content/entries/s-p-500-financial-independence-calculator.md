@@ -1,6 +1,6 @@
 ---
 title: "S&P 500 Financial Independence Calculator"
-description: "Calculate how much to invest in S&P 500 for financial independence. Free calculator shows exact amounts needed for any income goal."
+description: "A calculator that computes the investment portfolio size needed to generate a target annual income using a chosen safe withdrawal rate from the S&P 500."
 source_url: "https://claude.ai/public/artifacts/fe8a42ca-9175-49e7-ba14-983a2ff8b9fe"
 provider: "claude"
 tags: ["calculators", "finance"]

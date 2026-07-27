@@ -1,6 +1,6 @@
 ---
-title: "Thyra - The Only EHR That Evolves Your Notes For You"
-description: "27 unread notifications, alert fatigue, and endless clicking through menus. After hours charting. Missing Family Time. Finishing notes at 9 PM while your"
+title: "Thyra - EHR Landing Page Concept"
+description: "A landing page mockup for a fictional EHR product called Thyra, pitching automatic note-writing and reduced alert fatigue with an interactive smart-inbox demo."
 source_url: "https://claude.ai/public/artifacts/b0abfbae-d731-4cbb-bcb9-70b6534975ff"
 provider: "claude"
 tags: ["web-ui", "landing-page"]

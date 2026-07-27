@@ -1,6 +1,6 @@
 ---
 title: "SHIFT - Packaging Design System"
-description: "SHIFT - Product Packaging Design System — SHIFT Packaging Premium packaging design that embodies transformation, performance, and the relentless pursuit of excellence. Every detail crafted"
+description: "A dark-themed showcase site for a product packaging design system, presenting 3D package mockups that rotate on hover alongside the brand's visual language."
 source_url: "https://claude.ai/public/artifacts/b1b41b7b-da26-4abe-9f57-f91f005a98d1"
 provider: "claude"
 tags: ["art-design-music", "insurance"]

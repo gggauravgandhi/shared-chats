@@ -1,6 +1,6 @@
 ---
-title: "Relume AI Sitemap Prompting Mastery Guide: Technical B2B Software Edition"
-description: "... Dashboard interface showing installation progress, productivity metrics, and ... Dashboard interface\" → Generates dashboard-style layouts - \"Feature"
+title: "Relume AI Sitemap Prompting Mastery Guide"
+description: "A written guide to writing prompts for Relume AI's sitemap generator, covering prompt structure, component targeting, and examples for B2B SaaS websites."
 source_url: "https://claude.ai/public/artifacts/da0fc710-b434-457d-bd14-23b479a70579"
 provider: "claude"
 tags: ["ai-chatbots", "analytics", "dashboard", "prompt"]

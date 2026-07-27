@@ -1,6 +1,6 @@
 ---
 title: "Daily Activity Tracker"
-description: "Track daily activities & steps in real-time with this comprehensive fitness tracker. Built with Claude AI - start monitoring your progress today!"
+description: "A React app for logging physical and mental activities, running a live timer, tracking step counts, and reviewing entries against a daily step goal."
 source_url: "https://claude.ai/public/artifacts/121dcb11-01e2-438d-bde8-ff473bbf1dae"
 provider: "claude"
 tags: ["health-fitness", "fitness", "tracker"]

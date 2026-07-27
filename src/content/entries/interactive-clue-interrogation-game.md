@@ -1,6 +1,6 @@
 ---
 title: "Interactive CLUE Interrogation Game"
-description: "Practice English past tense with this interactive crime mystery game! Students play detective & criminal roles."
+description: "A two-student ESL role-play: one plays a police officer, the other a suspect, using question-word and past-tense prompts to run a scripted interrogation."
 source_url: "https://claude.ai/public/artifacts/a3722009-458e-43db-96c4-9f249be2f50c"
 provider: "claude"
 tags: ["language-learning", "game", "interactive"]

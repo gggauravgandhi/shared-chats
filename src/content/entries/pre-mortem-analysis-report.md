@@ -1,6 +1,6 @@
 ---
 title: "Pre-Mortem Analysis Report"
-description: "Weekly Success Metrics Dashboard ... Plan contingency responses in advance. Implementation Checklist. Week -4: Foundation. • Set up analytics dashboard"
+description: "A template report walking through a pre-mortem exercise: failure scenarios, contingency prompts, a metrics dashboard outline, and a week-by-week checklist."
 source_url: "https://claude.ai/public/artifacts/9016442d-c8e2-4476-8f46-402bc4b817a6"
 provider: "claude"
 tags: ["productivity", "analytics", "dashboard", "report"]

@@ -1,6 +1,6 @@
 ---
 title: "Singapore PR Eligibility Assessment Tool"
-description: "Check your Singapore PR eligibility instantly with this free assessment tool. Get personalized scores based on ICA criteria."
+description: "A form-based calculator that scores Singapore PR chances from inputs like age, education, occupation, salary, years in Singapore, marital status, and property."
 source_url: "https://claude.ai/public/artifacts/e58af4a7-f76f-4599-a4ee-fd4222eeeb7b"
 provider: "claude"
 tags: ["forms-surveys", "eligibility", "singapore"]

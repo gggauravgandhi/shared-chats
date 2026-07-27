@@ -1,6 +1,6 @@
 ---
 title: "Kahoot: Adjective Order"
-description: "Remember the Order: Opinion → Size → Age → Shape → Color → Origin → Material → Purpose Example: \"A beautiful small old round red Chinese wooden dining table"
+description: "A Kahoot-style multiple-choice quiz that tests knowledge of the correct order of adjectives in English sentences, with scoring and a results screen."
 source_url: "https://claude.ai/public/artifacts/b8326754-82a1-4ceb-9981-443f83b24d66"
 provider: "claude"
 tags: ["language-learning", "game", "grammar"]

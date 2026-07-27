@@ -1,6 +1,6 @@
 ---
-title: "Pandora Charms Outlet"
-description: "Last season's best, at prices that make sense. Charms, jewelry, and accessories, all in one trip. Today's clearance runs through Pandora Outlet."
+title: "Charm Jewelry Outlet Landing Page"
+description: "Dark-themed landing page design for a discount charm-bracelet outlet store, featuring a price-tag call-to-action and a markdown promotions section."
 source_url: "https://claude.ai/public/artifacts/456335b0-d115-4749-ac04-f121d679b632"
 provider: "claude"
 tags: ["business-finance", "landing-page"]

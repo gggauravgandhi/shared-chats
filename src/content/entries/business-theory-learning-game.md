@@ -1,6 +1,6 @@
 ---
 title: "Business Theory Learning Game"
-description: "Master business theory through interactive scenarios! Learn Transaction Cost Theory & Social Embeddedness with real decisions."
+description: "A scenario-based quiz that teaches concepts like transaction cost theory and social embeddedness by having you pick a response to workplace situations."
 source_url: "https://claude.ai/public/artifacts/46ad667b-2804-45af-b996-2d043e32fcf8"
 provider: "claude"
 tags: ["games", "business", "interactive"]

@@ -1,6 +1,6 @@
 ---
 title: "AI for All - Summer Bootcamp Orientation"
-description: "Create portfolio projects to showcase your skills. Your 6-Week AI Journey. Week 1: AI Unplugged. Discover what AI really is and where you encounter it"
+description: "An orientation page for a six-week AI bootcamp, laying out the program schedule, target audience, weekly themes, and tools students will use."
 source_url: "https://claude.ai/public/artifacts/f5aa6bfb-489d-4c8b-9bd1-40f44433a3f9"
 provider: "claude"
 tags: ["portfolios-resumes", "onboarding", "training"]

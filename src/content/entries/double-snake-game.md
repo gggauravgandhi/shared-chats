@@ -1,6 +1,6 @@
 ---
 title: "Double Snake Game"
-description: "Content is user-generated and unverified. Customize. Double Snake Game. Snake 1: Alive. Snake 2: Alive. Snake 1 (WASD). W A"
+description: "A browser Snake game for two players at once on one keyboard, one snake controlled with WASD and the other with the arrow keys, sharing a single board."
 source_url: "https://claude.ai/public/artifacts/98746c3e-dd69-4dac-b03a-e0fb2d0dbf50"
 provider: "claude"
 tags: ["games", "arcade"]

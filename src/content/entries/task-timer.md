@@ -1,6 +1,6 @@
 ---
 title: "Task Timer"
-description: "Stay focused with this productivity timer that tracks tasks, streaks, and session stats. Set timers, log outcomes, and maintain momentum throughout"
+description: "A countdown productivity timer that logs each task and its outcome in a running list, tracking focus streaks and session stats as you work through tasks."
 source_url: "https://claude.ai/public/artifacts/898bc5fa-5eeb-46ca-b02b-b31023e16440"
 provider: "claude"
 tags: ["productivity", "timer"]

@@ -1,6 +1,6 @@
 ---
 title: "Scape - Employee Schedule Calendar"
-description: "Create beautiful employee schedules instantly with this interactive calendar template. Built with Claude AI - customize shifts, track staff, and organize"
+description: "A printable-style calendar template for scheduling employee shifts across multiple months, styled with a spa-themed logo and a soft blue color palette."
 source_url: "https://claude.ai/public/artifacts/9c06f174-816b-4b1d-8fe4-036558190bff"
 provider: "claude"
 tags: ["productivity", "hr", "planner", "template"]

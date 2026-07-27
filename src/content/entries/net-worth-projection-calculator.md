@@ -1,6 +1,6 @@
 ---
 title: "Net Worth Projection Calculator"
-description: "Net Worth Projection Calculator. Calculate future wealth based on current assets and regular investments. Input Parameters. Current Net Worth (₹ Lakhs)."
+description: "Calculator that projects future net worth in Indian rupees from current savings, a monthly investment amount, expected return, and time horizon."
 source_url: "https://claude.ai/public/artifacts/58feb45b-6c20-46a5-a0c8-4b60b33cee52"
 provider: "claude"
 tags: ["calculators", "net", "worth"]

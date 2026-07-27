@@ -1,6 +1,6 @@
 ---
 title: "Tourism and Sustainable Development Study Guide"
-description: "ecocentrism worldviews ### Application Skills - Identify tourism jewels in different communities - Distinguish between different types of attractions"
+description: "A markdown study guide covering tourism definitions, destination development, sustainability principles, and community tourism concepts for a college course."
 source_url: "https://claude.ai/public/artifacts/0edb8b08-d037-4a02-be89-281818e9da5c"
 provider: "claude"
 tags: ["flashcards-study", "guide", "travel"]

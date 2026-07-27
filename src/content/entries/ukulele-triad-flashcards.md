@@ -1,6 +1,6 @@
 ---
 title: "Ukulele Triad Flashcards"
-description: "Master ukulele triads & key signatures with interactive flashcards. Practice major, minor & diminished chords for Level 5 exams."
+description: "A flashcard app for practicing ukulele major, minor, and diminished triads across all twelve key signatures, built for exam preparation and quick recall."
 source_url: "https://claude.ai/public/artifacts/87dc9f08-d532-4597-b91b-df90c4ee2fcc"
 provider: "claude"
 tags: ["flashcards-study", "interactive"]

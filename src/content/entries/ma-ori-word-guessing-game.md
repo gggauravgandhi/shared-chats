@@ -1,6 +1,6 @@
 ---
-title: "Māori Word Guessing Game"
-description: "Learn Te Reo Māori through an interactive word guessing game! Test your knowledge of Māori culture, colors, and everyday words."
+title: "Maori Word Guessing Game"
+description: "A word guessing game for learning Te Reo Maori vocabulary, where players try to identify each word from clues within a set number of guesses."
 source_url: "https://claude.ai/public/artifacts/7f413115-4acb-4efc-abdf-1a1dab8153ee"
 provider: "claude"
 tags: ["games", "guessing-game", "interactive"]

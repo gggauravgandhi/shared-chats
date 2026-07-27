@@ -1,6 +1,6 @@
 ---
 title: "Claude AI Capabilities for Product & Design Teams"
-description: "Discover Claude AI&#x27;s powerful capabilities for product teams - from user story creation to design validation. Built with Claude AI. Try it free!"
+description: "A slide deck outlining how product and design teams can use Claude AI for requirements planning, research, design ideation, validation, and team collaboration."
 source_url: "https://claude.ai/public/artifacts/628c5435-e820-4c67-a63e-6cb7d86e2ab8"
 provider: "claude"
 tags: ["presentations", "story"]

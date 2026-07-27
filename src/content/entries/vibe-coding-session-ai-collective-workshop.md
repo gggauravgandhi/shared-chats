@@ -1,6 +1,6 @@
 ---
 title: "Vibe Coding Session - AI Collective Workshop"
-description: "Learn no-code AI development in 90 minutes! Create landing pages, calculators & apps without programming skills."
+description: "A German-language agenda for a 90-minute workshop teaching non-technical business managers to build landing pages and calculators with no-code AI tools."
 source_url: "https://claude.ai/public/artifacts/010f2de0-a26c-4bef-a422-10eca8814cb6"
 provider: "claude"
 tags: ["developer-tools", "automation", "training"]

@@ -1,6 +1,6 @@
 ---
 title: "AI History Quiz Game"
-description: "Welcome to the AI History Quiz! Test your knowledge about the fascinating history of Artificial Intelligence. This quiz covers key milestones, pioneers,"
+description: "A quiz game covering milestones and pioneers of artificial intelligence, presented as a welcome screen leading into scored questions and results."
 source_url: "https://claude.ai/public/artifacts/b6dd7094-d0b0-43e7-8f72-c18f5d1240cf"
 provider: "claude"
 tags: ["quizzes-trivia", "game", "history"]

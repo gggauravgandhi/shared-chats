@@ -1,6 +1,6 @@
 ---
 title: "What's Your Metaethical Stance? Quiz"
-description: "What&#x27;s Your Meta-ethical Stance? A philosophical detective game powered by Claude AI. How it works: Through a series of moral scenarios, we&#x27;ll systematically"
+description: "A branching philosophy quiz that walks through a decision tree of metaethical questions to identify your position, from moral realism to expressivism."
 source_url: "https://claude.ai/public/artifacts/065ef6d7-8c5e-4bc0-8381-6a38dd6bdff4"
 provider: "claude"
 tags: ["quizzes-trivia", "game"]

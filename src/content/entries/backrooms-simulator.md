@@ -1,6 +1,6 @@
 ---
 title: "Backrooms Simulator"
-description: "First response will be from Participant 2. Participant 2. System Prompt: Conversation. #, Participant 1, Participant 2. No messages yet."
+description: "Sets up a scripted conversation between two or more AI personas, each with its own system prompt and a shared opening message, then plays it out turn by turn."
 source_url: "https://claude.ai/public/artifacts/e8b10544-ad26-40cd-8f98-e57bc3665a28"
 provider: "claude"
 tags: ["simulations", "prompt"]

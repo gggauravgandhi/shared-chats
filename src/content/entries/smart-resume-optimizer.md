@@ -1,6 +1,6 @@
 ---
 title: "Smart Resume Optimizer"
-description: "Optimize your resume for any job in seconds with AI-powered keyword matching and ATS scoring. Built with Claude AI. Get hired faster!"
+description: "Takes a pasted resume and job description, then uses Claude to reorder sections and bullet points for relevance, returning an ATS score and keyword matches."
 source_url: "https://claude.ai/public/artifacts/519a3588-7d9e-40cb-8929-ba097f43e474"
 provider: "claude"
 tags: ["portfolios-resumes", "optimizer"]

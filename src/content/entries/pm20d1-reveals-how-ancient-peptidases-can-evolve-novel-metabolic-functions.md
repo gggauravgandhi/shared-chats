@@ -1,6 +1,6 @@
 ---
-title: "PM20D1 Reveals How Ancient Peptidases Can Evolve Novel Metabolic Functions"
-description: "Discover how PM20D1 evolved from ancient peptidase CPS1 into a novel metabolic enzyme that synthesizes signaling lipids and regulates thermogenesis."
+title: "PM20D1 Reveals How Ancient Peptidases Evolve New Functions"
+description: "A research explainer on how the enzyme PM20D1 evolved from an ancestral peptidase into a lipid-signaling enzyme that regulates thermogenesis in mammals."
 source_url: "https://claude.ai/public/artifacts/191a4709-122e-4ffa-8ff0-1c794a73b3da"
 provider: "claude"
 tags: ["creative-writing", "history"]

@@ -1,6 +1,6 @@
 ---
-title: "Tata Power Limited - Equity Analysis Report"
-description: "The company has been at the forefront of India&#x27;s clean energy transition, with significant investments in renewable energy projects and a commitment to"
+title: "Tata Power Limited Equity Analysis Report"
+description: "A formatted equity research report on Tata Power covering its renewable energy investments, financials, and an investment recommendation with supporting data."
 source_url: "https://claude.ai/public/artifacts/dc6c54ce-781b-4ef8-86d8-faeac310303f"
 provider: "claude"
 tags: ["reports-analysis", "stocks"]

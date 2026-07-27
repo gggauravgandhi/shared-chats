@@ -1,6 +1,6 @@
 ---
 title: "Customer Review Response Generator"
-description: "Generate professional customer review responses instantly with AI. Perfect tone, personalized messaging."
+description: "A form-based tool that drafts a reply to a customer review from the review text and business details, with options to copy or save the generated response."
 source_url: "https://claude.ai/public/artifacts/14736065-c801-49e5-86fb-32aa36d9f60b"
 provider: "claude"
 tags: ["generators", "customer", "review"]

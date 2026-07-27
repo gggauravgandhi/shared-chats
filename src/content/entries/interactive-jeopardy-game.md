@@ -1,6 +1,6 @@
 ---
 title: "Interactive Jeopardy Game"
-description: "Play interactive Jeopardy with English vocabulary & grammar challenges! Test your skills across 5 categories with engaging questions."
+description: "A Jeopardy-style board game for reviewing English vocabulary and grammar, with categories, point values, and a running scoreboard for classroom play."
 source_url: "https://claude.ai/public/artifacts/c9211d14-c1ea-4774-98cb-07bceb30a49c"
 provider: "claude"
 tags: ["language-learning", "grammar", "quiz", "vocabulary"]

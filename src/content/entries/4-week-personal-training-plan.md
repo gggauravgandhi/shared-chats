@@ -1,6 +1,6 @@
 ---
 title: "4-Week Personal Training Plan"
-description: "Get a complete 4-week personal training plan with targeted workouts, meal prep recipes & nutrition tips."
+description: "A four-week workout and nutrition schedule with daily morning routines mixing strength circuits, cardio, yoga, and evening climbing sessions."
 source_url: "https://claude.ai/public/artifacts/7a7ae778-dcdc-45bd-9606-5eba687286ec"
 provider: "claude"
 tags: ["health-fitness", "fitness", "nutrition"]

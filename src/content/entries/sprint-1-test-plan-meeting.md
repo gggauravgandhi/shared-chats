@@ -1,6 +1,6 @@
 ---
-title: "Sprint 1 Test Plan Meeting"
-description: "Experience realistic Sprint 1 test planning with interactive audio simulation. Built with Claude AI - practice agile meetings with voice synthesis."
+title: "Sprint 1 Test Plan Meeting Simulation"
+description: "A scripted agile planning meeting with four voiced characters discussing sprint test plans, played back as a synced transcript with audio narration controls."
 source_url: "https://claude.ai/public/artifacts/22a75c3d-b650-4131-895e-e71a4632d18c"
 provider: "claude"
 tags: ["simulations", "interactive", "music", "project-management"]

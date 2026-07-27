@@ -1,6 +1,6 @@
 ---
 title: "Complete IMS Implementation Tools & Templates Toolkit"
-description: "Get complete IMS implementation tools & templates for ISO 9001, 14001, 45001 certification. Ready-to-use checklists, forms & guides."
+description: "A rendered markdown toolkit listing templates and tools for implementing an integrated management system, covering assessment, documentation, and audits."
 source_url: "https://claude.ai/public/artifacts/2fbc7691-4514-49f7-9503-a74b04267392"
 provider: "claude"
 tags: ["tool", "training"]

@@ -1,6 +1,6 @@
 ---
 title: "AI Maker Newsletter Performance Dashboard"
-description: "Analyze your newsletter performance and discover viral content patterns with this AI-powered dashboard."
+description: "A dashboard for analyzing newsletter performance metrics, surfacing patterns in which content topics and formats tend to perform best over time."
 source_url: "https://claude.ai/public/artifacts/23ae1db2-694a-4689-98f0-8d06b20727a2"
 provider: "claude"
 tags: ["web-ui", "dashboard"]

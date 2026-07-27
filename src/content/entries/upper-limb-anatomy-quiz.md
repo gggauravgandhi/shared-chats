@@ -1,6 +1,6 @@
 ---
 title: "Upper Limb Anatomy Quiz"
-description: "Test your medical knowledge with this comprehensive 70-question upper limb anatomy quiz. Built with Claude AI for interactive learning."
+description: "A 70-question multiple-choice quiz covering upper limb anatomy, with a progress bar and explanations for each answer, built for medical student review."
 source_url: "https://claude.ai/public/artifacts/26e796b4-28f0-42df-96e0-ad181c61c1ef"
 provider: "claude"
 tags: ["math-science", "biology", "medical", "quiz"]

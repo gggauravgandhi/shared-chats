@@ -1,6 +1,6 @@
 ---
 title: "Case Study Aggregator"
-description: "Access real business case studies from top companies like Stripe, Nike & OpenAI, plus generate custom AI-powered case studies."
+description: "Lists real business case studies from named companies with search and category filters, plus a generator that writes a custom case study for any sector."
 source_url: "https://claude.ai/public/artifacts/8253c133-f19e-400b-908a-c63fe0fc68a4"
 provider: "claude"
 tags: ["generators", "business", "education", "report"]

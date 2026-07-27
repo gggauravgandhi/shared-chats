@@ -1,6 +1,6 @@
 ---
 title: "Interactive Mac Onboarding Setup Web App"
-description: "Gaming communication. Slack. FREE. Team communication. Telegram. FREE. Secure messaging. WhatsApp. FREE. Messaging. Microsoft Teams. FREE. Business"
+description: "A checklist tool for setting up a new Mac: pick the apps and settings you want, and it generates a shell script that installs and configures them."
 source_url: "https://claude.ai/public/artifacts/8488c83b-6d15-4aa7-ab66-f7feae55662d"
 provider: "claude"
 tags: ["lessons-courses", "business", "interactive", "onboarding"]

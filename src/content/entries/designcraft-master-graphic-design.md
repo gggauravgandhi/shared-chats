@@ -1,6 +1,6 @@
 ---
 title: "DesignCraft - Master Graphic Design"
-description: "Start your graphic design journey with fundamentals, basic tools, and simple projects. Perfect for complete beginners.. Intermediate. Build on your skills"
+description: "A landing page for a graphic design course platform, laying out beginner, intermediate, and advanced tracks for learning design fundamentals and tools."
 source_url: "https://claude.ai/public/artifacts/a60f95a3-3ea4-4e21-ad8b-352fd178277d"
 provider: "claude"
 tags: ["lessons-courses", "designcraft", "graphic"]

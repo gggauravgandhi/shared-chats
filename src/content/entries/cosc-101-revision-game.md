@@ -1,6 +1,6 @@
 ---
 title: "COSC 101 Revision Game"
-description: "Master COSC 101 concepts with this interactive quiz game! Test your knowledge on AI, cybersecurity, programming & more."
+description: "A React quiz game for revising an introductory computer science course, covering AI, cybersecurity, and programming topics with scoring and sound effects."
 source_url: "https://claude.ai/public/artifacts/a4a4b30d-d506-466f-b70f-949d719db86b"
 provider: "claude"
 tags: ["quizzes-trivia", "game", "interactive", "test-prep"]

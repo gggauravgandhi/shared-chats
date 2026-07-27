@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive Health Assessment Form"
-description: "Complete your comprehensive health assessment with this interactive form covering physical & mental wellbeing."
+description: "A multi-section React intake form covering personal details, physical health, and mental wellbeing, with step-by-step navigation and a save function."
 source_url: "https://claude.ai/public/artifacts/503a4488-1527-49a5-8eda-77728db8420a"
 provider: "claude"
 tags: ["forms-surveys", "interactive"]

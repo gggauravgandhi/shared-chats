@@ -1,6 +1,6 @@
 ---
 title: "Breaking Free from Toxic Nostalgia"
-description: "Novel Activities: Try something you&#x27;ve never done before; New Places: Visit somewhere unfamiliar; Learn Skills: Take a class or start a creative project"
+description: "A slide-by-slide presentation on how idealizing the past can trap people in unhappiness, covering warning signs, why it happens, and steps to move forward."
 source_url: "https://claude.ai/public/artifacts/cdd89e47-e338-4b4c-b65f-0d3b468cb16f"
 provider: "claude"
 tags: ["presentations", "interactive", "story"]

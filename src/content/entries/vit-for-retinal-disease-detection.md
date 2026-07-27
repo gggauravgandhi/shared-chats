@@ -1,6 +1,6 @@
 ---
 title: "ViT for Retinal Disease Detection"
-description: "Learn Vision Transformer AI for retinal disease detection - interactive 3-minute presentation with 10 disease classifications."
+description: "A slide-deck presentation explaining how a Vision Transformer model classifies ten retinal diseases from eye scans, built for a short conference talk."
 source_url: "https://claude.ai/public/artifacts/9d2ce772-5c5a-4f3a-a4a3-1139fa99c49d"
 provider: "claude"
 tags: ["presentations", "interactive", "medical"]

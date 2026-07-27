@@ -1,6 +1,6 @@
 ---
 title: "Abacus Calculator for Students"
-description: "Practice math skills with this interactive abacus calculator! Master addition, subtraction, multiplication & division."
+description: "An on-screen abacus for practicing arithmetic, letting students work through addition, subtraction, multiplication, and division by moving virtual beads."
 source_url: "https://claude.ai/public/artifacts/aecf3466-7040-473a-b149-933170ecca45"
 provider: "claude"
 tags: ["math-science", "calculator", "interactive", "math"]
