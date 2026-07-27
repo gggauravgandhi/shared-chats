@@ -57,6 +57,7 @@ export function entryJsonLd(opts: {
   datePublished: Date;
   providerLabel: string;
   sourceUrl: string;
+  aboutType?: 'Conversation' | 'CreativeWork';
 }): object {
   return {
     '@context': 'https://schema.org',
@@ -67,7 +68,7 @@ export function entryJsonLd(opts: {
     datePublished: opts.datePublished.toISOString().slice(0, 10),
     publisher: PUBLISHER,
     about: {
-      '@type': 'Conversation',
+      '@type': opts.aboutType ?? 'Conversation',
       name: opts.title,
       url: opts.sourceUrl,
       provider: { '@type': 'Organization', name: opts.providerLabel },

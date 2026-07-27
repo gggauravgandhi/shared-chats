@@ -1,0 +1,14 @@
+---
+import { getCollection } from 'astro:content';
+import EntryDetail from '../../components/EntryDetail.astro';
+import type { Entry } from '../../lib/entries';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('entries', ({ data }) => data.kind === 'artifact');
+  return entries.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props as { entry: Entry };
+---
+
+<EntryDetail entry={entry} />

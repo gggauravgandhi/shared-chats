@@ -66,6 +66,7 @@ title,description,source_url,provider,tags,date_discovered,featured,curator_note
 | `featured` | no | `true` / `false` (default false) |
 | `curator_note` | no | 1–2 sentences, rendered as "Why we picked it" |
 | `content_warning` | no | short phrase; renders a warning banner when present |
+| `kind` | no | `chat` (default) or `artifact`; artifacts render under `/artifacts/` |
 
 Standard CSV quoting applies (RFC 4180): wrap fields containing commas or
 quotes in double quotes, double any embedded quotes.

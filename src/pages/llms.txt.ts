@@ -19,6 +19,7 @@ Currently indexing ${entries.length} conversations.
 - About: ${SITE}/about/
 - FAQ: ${SITE}/faq/
 - Browse all chats: ${SITE}/chats/
+- Browse artifacts: ${SITE}/artifacts/
 - Tag index: ${SITE}/tags/
 ${providers.map((p) => `- ${PROVIDER_LABELS[p] ?? p} conversations: ${SITE}/providers/${p}/`).join('\n')}
 - Stats: ${SITE}/stats/

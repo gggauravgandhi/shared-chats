@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import Pagination from '../../components/Pagination.astro';
+import JsonLd from '../../components/JsonLd.astro';
+import { byDateDesc, PAGE_SIZE, entryPath } from '../../lib/entries';
+import { collectionPageJsonLd } from '../../lib/seo';
+
+export async function getStaticPaths({ paginate }: { paginate: any }) {
+  const entries = (await getCollection('entries', ({ data }: any) => data.kind === 'artifact')).sort(byDateDesc);
+  return paginate(entries, { pageSize: PAGE_SIZE });
+}
+
+const { page } = Astro.props;
+const pageSuffix = page.currentPage > 1 ? ` — page ${page.currentPage}` : '';
+---
+
+<Base
+  title={`Browse artifacts${pageSuffix} — SharedChats`}
+  description="Interactive artifacts made with AI — tools, games, visualizations, guides — curated on SharedChats with links to the originals."
+>
+  <JsonLd
+    slot="head"
+    data={collectionPageJsonLd({
+      name: `Browse artifacts${pageSuffix}`,
+      description: 'Interactive AI-made artifacts curated on SharedChats, newest first.',
+      path: page.currentPage > 1 ? `/artifacts/${page.currentPage}/` : '/artifacts/',
+      itemPaths: page.data.map((e: any) => entryPath(e)),
+    })}
+  />
+  <section class="py-10">
+    <h1 class="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">Artifacts</h1>
+    <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+      {page.total} interactive artifact{page.total === 1 ? '' : 's'} — tools, games, visualizations, and guides made
+      with AI — newest first.
+    </p>
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {page.data.map((e: any) => <Card entry={e} />)}
+    </div>
+    <Pagination page={page} />
+  </section>
+</Base>

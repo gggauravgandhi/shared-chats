@@ -25,6 +25,7 @@ const entries = defineCollection({
       .min(1)
       .max(6),
     date_discovered: z.coerce.date(),
+    kind: z.enum(['chat', 'artifact']).default('chat'),
     featured: z.boolean().default(false),
     curator_note: z.string().default(''),
     content_warning: z.string().default(''),

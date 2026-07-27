@@ -15,6 +15,7 @@ const COLUMNS = [
   'featured',
   'curator_note',
   'content_warning',
+  'kind',
 ];
 
 // Minimal RFC 4180 parser: quoted fields, escaped quotes, newlines in fields.
@@ -95,11 +96,13 @@ function main() {
 
   rows.forEach((cols, idx) => {
     const line = idx + 2; // 1-based + header
-    if (cols.length !== COLUMNS.length) {
-      invalid.push(`line ${line}: expected ${COLUMNS.length} columns, got ${cols.length}`);
+    // kind column is optional for backwards compatibility (defaults to "chat")
+    if (cols.length !== COLUMNS.length && cols.length !== COLUMNS.length - 1) {
+      invalid.push(`line ${line}: expected ${COLUMNS.length - 1} or ${COLUMNS.length} columns, got ${cols.length}`);
       return;
     }
-    const r = Object.fromEntries(COLUMNS.map((c, i) => [c, cols[i].trim()])) as Record<string, string>;
+    const r = Object.fromEntries(COLUMNS.map((c, i) => [c, (cols[i] ?? '').trim()])) as Record<string, string>;
+    if (!r.kind) r.kind = 'chat';
 
     const problems: string[] = [];
     if (!r.title) problems.push('missing title');
@@ -121,6 +124,9 @@ function main() {
     }
     if (r.featured && !['true', 'false', ''].includes(r.featured)) {
       problems.push(`featured must be true/false, got "${r.featured}"`);
+    }
+    if (!['chat', 'artifact'].includes(r.kind)) {
+      problems.push(`kind must be chat/artifact, got "${r.kind}"`);
     }
     if (problems.length) {
       invalid.push(`line ${line} (${r.title || 'untitled'}): ${problems.join('; ')}`);
@@ -152,6 +158,7 @@ function main() {
       `provider: ${yamlStr(r.provider)}`,
       `tags: [${tags.map(yamlStr).join(', ')}]`,
       `date_discovered: ${r.date_discovered}`,
+      `kind: ${yamlStr(r.kind)}`,
       `featured: ${r.featured === 'true'}`,
       `curator_note: ${yamlStr(r.curator_note)}`,
       `content_warning: ${yamlStr(r.content_warning)}`,

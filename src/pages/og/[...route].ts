@@ -8,10 +8,10 @@ type OgPage = { title: string; description: string };
 
 const pages: Record<string, OgPage> = Object.fromEntries(
   entries.map((e) => [
-    `chats/${e.id}`,
+    `${e.data.kind === 'artifact' ? 'artifacts' : 'chats'}/${e.id}`,
     {
       title: e.data.title,
-      description: `${PROVIDER_LABELS[e.data.provider] ?? e.data.provider} · sharedchats.com`,
+      description: `${PROVIDER_LABELS[e.data.provider] ?? e.data.provider}${e.data.kind === 'artifact' ? ' artifact' : ''} · sharedchats.com`,
     },
   ])
 );

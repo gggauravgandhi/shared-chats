@@ -68,6 +68,10 @@ export function relatedEntries(entry: Entry, all: Entry[], limit = 4): Entry[] {
     .map(({ e }) => e);
 }
 
+export function entryPath(e: Entry): string {
+  return `/${e.data.kind === 'artifact' ? 'artifacts' : 'chats'}/${e.id}/`;
+}
+
 // Astro's paginate() URLs come without trailing slashes; keep ours consistent.
 export function withTrailingSlash(url: string | undefined): string | undefined {
   if (!url) return undefined;

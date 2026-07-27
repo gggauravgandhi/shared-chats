@@ -8,7 +8,7 @@ import { byDateDesc, PAGE_SIZE, PROVIDER_LABELS } from '../../lib/entries';
 import { collectionPageJsonLd } from '../../lib/seo';
 
 export async function getStaticPaths({ paginate }: { paginate: any }) {
-  const entries = (await getCollection('entries')).sort(byDateDesc);
+  const entries = (await getCollection('entries', ({ data }: any) => data.kind === 'chat')).sort(byDateDesc);
   return paginate(entries, { pageSize: PAGE_SIZE });
 }
 
