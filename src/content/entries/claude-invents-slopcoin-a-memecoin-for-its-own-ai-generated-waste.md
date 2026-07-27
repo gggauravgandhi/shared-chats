@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/9f1cb369-ed17-4de0-a880-93c7a2077e28"
 provider: "claude"
 tags: ["humor", "ai", "memecoin", "satire", "crypto"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "Claude's self-aware roast of its own filler-text tendencies, turned into a fully playable ASCII terminal toy."
 content_warning: ""

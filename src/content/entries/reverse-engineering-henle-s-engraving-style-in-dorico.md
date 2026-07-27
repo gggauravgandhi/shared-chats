@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/6fb4b6f1-35ee-4ece-a389-1707eeec4aee"
 provider: "claude"
 tags: ["creative", "ai", "music", "explainers"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "Notable for the user twice correcting the model's font claims, and watching it revise its reasoning cleanly each time."
 content_warning: ""

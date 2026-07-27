@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/0c919398-d2f8-4682-a6ea-c68f24b98ab2"
 provider: "claude"
 tags: ["analysis", "ai", "science", "data-science", "research"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "Rare to see one AI's investigative findings get rigorously fact-checked and partly overturned by another AI in the same thread."
 content_warning: ""

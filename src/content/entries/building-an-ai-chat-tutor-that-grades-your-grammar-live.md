@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/4cbfcca9-b49b-477b-bfc2-51ae0ff39775"
 provider: "claude"
 tags: ["coding", "ai", "explainers"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

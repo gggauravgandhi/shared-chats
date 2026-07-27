@@ -1,7 +1,7 @@
 ---
 title: "Claude Code: Complete Development Guide"
 description: "Skill Development: • Learn best practices through AI examples • Understand complex patterns and architectures • Gain exposure to new frameworks and"
-source_url: "https://artifacton.com/claude-code-team-presentation"
+source_url: "https://claude.ai/public/artifacts/43d087f6-7d9d-42b4-b220-4590feec052e"
 provider: "claude"
 tags: ["presentations", "code", "team"]
 date_discovered: 2026-07-27

@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/1ecd3873-8b3a-4539-be88-813b6c88c1eb"
 provider: "claude"
 tags: ["coding", "game-dev", "claude-api", "javascript", "prompt-iteration"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "A practical look at iterative game development with Claude, showing how successive rounds of feedback push AI-generated content from generic to genuinely theme-specific."
 content_warning: ""

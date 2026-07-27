@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/db71e110-e439-45c1-9f2c-6aebbf1edc88"
 provider: "claude"
 tags: ["math", "economics", "academia", "analysis"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: true
 curator_note: "The user pushes back on a continuity assumption Claude initially waved away - and turns out to be right: the paper's own 2020 corrigendum confirms that exact gap was a real error."
 content_warning: ""

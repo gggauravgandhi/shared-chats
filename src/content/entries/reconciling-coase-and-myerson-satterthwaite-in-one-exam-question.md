@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/2db49072-b4e9-4ea2-ad68-2acbfc438f2f"
 provider: "claude"
 tags: ["analysis", "economics", "game-theory", "academia"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "Claude invents its own exam question and answer, then uses obscure partnership-dissolution literature to show one of economics' most famous theorems inverts under asymmetric information."
 content_warning: ""

@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/c68dbf9b-cb85-42e2-8fb0-66786dbcd756"
 provider: "claude"
 tags: ["science", "marine-biology", "whales", "conservation", "wildlife"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

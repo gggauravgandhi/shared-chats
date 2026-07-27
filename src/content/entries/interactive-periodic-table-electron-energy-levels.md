@@ -1,9 +1,9 @@
 ---
 title: "Interactive Periodic Table - Electron Energy Levels"
 description: "Explore electron shells & energy levels with this interactive periodic table. Click elements to see electron configurations & orbital diagrams."
-source_url: "https://artifacton.com/interactive-periodic-table-electron-energy-levels"
+source_url: "https://claude.ai/public/artifacts/df93adac-abd8-4606-9148-df0ade01da01"
 provider: "claude"
-tags: ["math-science", "chemistry"]
+tags: ["math-science", "chemistry", "interactive"]
 date_discovered: 2026-07-27
 kind: "artifact"
 featured: false

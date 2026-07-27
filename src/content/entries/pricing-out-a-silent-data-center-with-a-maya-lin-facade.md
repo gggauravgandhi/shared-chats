@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/95682b92-241b-4cdd-a083-b759a3d5a263"
 provider: "claude"
 tags: ["humor", "analysis", "real-estate", "engineering"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: true
 curator_note: "A single sharp answer that blends real engineering cost estimates, actual litigation history, and dry wit into one of the most quotable replies in the set."
 content_warning: ""

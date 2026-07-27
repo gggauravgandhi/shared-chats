@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/79006cbb-e143-4c25-9016-f89ece45e9be"
 provider: "claude"
 tags: ["coding", "reverse-engineering", "arm-assembly", "decompilation", "game-boy-advance"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "A compact look at the meticulous reverse-engineering work behind fan decompilation projects, where raw byte offsets get turned into named struct fields through careful pattern inference."
 content_warning: ""

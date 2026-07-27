@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/b625ec5a-8285-44c8-9a76-a41b63297ec0"
 provider: "claude"
 tags: ["creative", "writing", "fiction", "ai", "short-story"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "The prompt was a straightforward outline, but the twist — the officious man may be the model, or the deadline, or the writer's own discipline personified — turns a writing-cadence complaint into something unsettling."
 content_warning: ""

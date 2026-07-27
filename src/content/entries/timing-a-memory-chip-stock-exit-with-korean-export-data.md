@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/9cc4f11d-2f26-41d5-9d5e-e7eb773208b5"
 provider: "claude"
 tags: ["analysis", "finance", "economics", "dashboards"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "Good look at using official trade statistics as a leading indicator, plus Claude being upfront about which numbers were estimated versus sourced."
 content_warning: ""

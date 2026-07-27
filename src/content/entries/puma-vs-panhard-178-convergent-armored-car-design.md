@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/6a5857ca-7e14-4a78-bfa1-5df7d22baa9c"
 provider: "claude"
 tags: ["history", "military", "engineering", "vehicles"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

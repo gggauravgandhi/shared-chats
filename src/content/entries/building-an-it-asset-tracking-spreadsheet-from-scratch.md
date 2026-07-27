@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/177fdc4b-afe8-434e-96bc-5e3554abb889"
 provider: "claude"
 tags: ["coding", "spreadsheets", "project-management", "automation"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "A vivid record of scope creep in real time, as dropdowns, VBA wiring, routing logic, and device-type fields keep growing across v3, v4, and v4.5."
 content_warning: ""

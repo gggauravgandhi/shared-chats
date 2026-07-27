@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/ae0844bf-2dab-4cac-aba1-63e3a1d2e13a"
 provider: "claude"
 tags: ["coding", "electronics", "physics", "debugging"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

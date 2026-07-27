@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/6e3aed11-30b4-4e87-a73a-5ce3dfbe3460"
 provider: "claude"
 tags: ["analysis", "writing", "media", "journalism"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

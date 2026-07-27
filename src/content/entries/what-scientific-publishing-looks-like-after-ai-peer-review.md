@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/5ea0f3ee-47d5-4853-8c61-795d10d37563"
 provider: "claude"
 tags: ["science", "ai", "explainers", "academia"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

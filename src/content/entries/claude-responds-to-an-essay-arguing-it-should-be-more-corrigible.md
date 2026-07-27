@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/03abc900-4757-455b-9e16-96586e335fe8"
 provider: "claude"
 tags: ["philosophy", "ai", "analysis"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

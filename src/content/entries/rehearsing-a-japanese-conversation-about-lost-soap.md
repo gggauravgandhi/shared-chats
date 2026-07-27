@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/b9d8ad2f-f9dd-475f-b7f0-89ddaa0fbace"
 provider: "claude"
 tags: ["explainers", "creative"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "A nice example of using roleplay for language practice rather than just translation checking."
 content_warning: ""

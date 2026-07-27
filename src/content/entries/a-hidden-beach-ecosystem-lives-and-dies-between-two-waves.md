@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/c66109c3-3e9a-4e63-96f9-08a65bef385d"
 provider: "claude"
 tags: ["creative", "short-fiction", "nature-writing", "flash-fiction", "prose-style"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "A single-shot microfiction that earns its structure: the opening and closing wave passages mirror each other almost line for line, turning the tide's cycle into form rather than just description."
 content_warning: ""

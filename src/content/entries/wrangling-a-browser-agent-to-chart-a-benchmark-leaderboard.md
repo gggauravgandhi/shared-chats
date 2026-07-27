@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/81a0c519-c727-4caa-b0d4-0d866375d0da"
 provider: "claude"
 tags: ["ai", "coding", "explainers"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "A candid look at agentic browser control in practice, including the false starts before the chart-labeling trick actually works."
 content_warning: ""

@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/cc82e14b-e4f6-4f27-a633-8925288ae0ad"
 provider: "claude"
 tags: ["math", "finance", "analysis"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "A crisp, numbers-first explainer of why 20-sigma 'impossible' crashes keep happening - and why Taleb thinks even that framing is a trap."
 content_warning: ""

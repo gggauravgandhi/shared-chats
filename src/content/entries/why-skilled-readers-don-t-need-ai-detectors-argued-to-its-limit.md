@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/c35393c3-3a7f-4d0e-9b21-3148687bbde4"
 provider: "claude"
 tags: ["philosophy", "epistemology", "ai-detection", "socratic-dialogue", "self-reflection"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "Worth it for the closing turn: after being pushed through several rounds of collapsing hedges, the assistant produces an unusually specific inventory of its own reasoning tics rather than a generic apology."
 content_warning: ""

@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/eb7c2e26-ddb9-40bb-824c-1245db90a61e"
 provider: "claude"
 tags: ["philosophy", "free-will", "indeterminism", "moral-responsibility", "libertarianism"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "A tight example of AI as academic peer reviewer: rather than just praising the argument, Claude stress-tests its internal logical consistency and flags specific spots where it could be pushed further."
 content_warning: ""

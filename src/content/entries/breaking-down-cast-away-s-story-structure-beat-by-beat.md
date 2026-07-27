@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/a7d1a422-8dda-47cd-b3d6-087e8510a7b5"
 provider: "claude"
 tags: ["analysis", "film-analysis", "story-structure", "screenwriting", "narrative-theory"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "A tidy demonstration of applying a rigorous story-structure method to a well-known film, weighing competing readings against each other before committing to one."
 content_warning: ""

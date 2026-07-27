@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/78d57944-e7d3-4b2c-ba9f-8febd163fbb3"
 provider: "claude"
 tags: ["ai", "safety", "technical", "model-architecture"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

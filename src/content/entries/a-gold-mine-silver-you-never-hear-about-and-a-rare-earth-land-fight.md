@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/11b7a3dc-b4fa-45fb-a0e6-57ac36316784"
 provider: "claude"
 tags: ["history", "science", "explainers", "mining", "policy"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

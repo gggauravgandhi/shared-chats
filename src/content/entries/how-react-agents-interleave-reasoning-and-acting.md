@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/b8f8d556-277e-44a7-8815-be8e91f199c8"
 provider: "claude"
 tags: ["ai", "agents", "react", "llm-reasoning", "explainers"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "A tight, well-cited explainer of the ReAct paper that goes past the pitch and into what its benchmarks actually showed."
 content_warning: ""

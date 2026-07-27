@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/3d51f7e2-f00c-4835-abb6-c4ba6526fdff"
 provider: "claude"
 tags: ["analysis", "history", "explainers", "politics"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

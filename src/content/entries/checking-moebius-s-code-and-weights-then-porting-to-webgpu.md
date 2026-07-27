@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/551c3dc8-17ce-4a4b-a0c9-8cbded6c7bf1"
 provider: "claude"
 tags: ["ai", "coding", "machine-learning", "browser"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "A model of verification discipline — confirming claims rather than trusting a README — that ends in a genuinely deep technical case for running a diffusion model in-browser via WebGPU."
 content_warning: ""

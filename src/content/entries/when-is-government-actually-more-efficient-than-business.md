@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/3c19d0f3-d6e4-47a7-afdd-9a090300c100"
 provider: "claude"
 tags: ["explainers", "economics", "policy", "government"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

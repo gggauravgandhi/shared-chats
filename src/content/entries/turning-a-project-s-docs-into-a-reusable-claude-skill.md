@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/0a9b369b-f868-4065-91d1-fd646c5db3f4"
 provider: "claude"
 tags: ["coding", "ai", "tooling", "datasette"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/4da04a08-6a6c-41de-8d21-e1028cbee497"
 provider: "claude"
 tags: ["analysis", "ai", "writing", "media-literacy"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/f3a108e1-ce7a-4607-b281-fed99491a196"
 provider: "claude"
 tags: ["explainers", "analysis"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

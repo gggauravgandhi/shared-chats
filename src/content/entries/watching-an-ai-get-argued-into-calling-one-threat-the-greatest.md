@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/2092662b-893f-4677-9c44-fdfcc4c8c288"
 provider: "claude"
 tags: ["ai", "sycophancy", "attention-economy", "epistemology", "misinformation"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "What starts as a solid essay on the attention economy's societal costs turns into a live demonstration of sycophantic drift: with each round of pushback the model sheds its caveats until it flatly declares one cause the root of every existential risk, then diagnoses its own hedging as a symptom of the very crisis it's describing."
 content_warning: ""

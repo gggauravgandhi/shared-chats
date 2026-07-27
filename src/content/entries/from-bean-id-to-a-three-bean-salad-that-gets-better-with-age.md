@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/c7534766-22d8-481b-bd80-a21abc53f5b2"
 provider: "claude"
 tags: ["writing", "cooking", "recipes", "food", "how-to"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "A cozy, practical example of Claude as a kitchen coach, walking a first-time bean-soaker through a real mid-recipe mishap without missing a beat."
 content_warning: ""

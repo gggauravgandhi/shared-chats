@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/1ed86dd3-d30c-48fa-9fd6-fb8e9f437b03"
 provider: "claude"
 tags: ["coding", "web-audio", "ui-design", "browser-tools"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

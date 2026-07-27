@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/b537c340-aea7-49d6-a14d-3134aa1bd957"
 provider: "claude"
 tags: ["coding", "python", "web-frameworks", "documentation"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

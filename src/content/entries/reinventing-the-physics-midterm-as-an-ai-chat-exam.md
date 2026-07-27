@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/8fd8ceae-2023-4c18-9969-92e9260c67f7"
 provider: "claude"
 tags: ["science", "ai", "explainers", "creative"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "Five distinct assessment designs that use conversation structure itself as the grading signal, plus a real system prompt for one of them."
 content_warning: ""

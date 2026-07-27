@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/c4df14f8-cbcc-4bca-80e8-de3cc4f77fb4"
 provider: "claude"
 tags: ["ai", "coding", "machine-learning", "tutorials"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

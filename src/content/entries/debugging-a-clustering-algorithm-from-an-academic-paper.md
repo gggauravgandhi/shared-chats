@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/50ac7f73-df99-4c96-a52a-50fa6796053f"
 provider: "claude"
 tags: ["coding", "math", "science", "analysis"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

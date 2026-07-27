@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/a13a101d-61f1-4993-91a2-c086045c461e"
 provider: "claude"
 tags: ["coding", "typescript", "types"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

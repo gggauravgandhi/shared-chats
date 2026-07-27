@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/fb4d1902-37f2-446b-9884-84d1e8485d60"
 provider: "claude"
 tags: ["coding", "three-js", "generative-art", "webgl", "ui-polish"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "A good example of iterative creative-coding: watch a procedurally generated 3D scene get tuned round by round from vague feedback like \"cute!\" and \"reduce the shadows\"."
 content_warning: ""

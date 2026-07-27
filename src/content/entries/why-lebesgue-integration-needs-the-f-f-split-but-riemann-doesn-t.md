@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/46cbe64d-035a-4c5c-83e7-941745545378"
 provider: "claude"
 tags: ["math", "real-analysis", "measure-theory", "lebesgue-integration", "explainers"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "A clean, textbook-quality answer that traces the f+/f- decomposition back to monotone convergence and the Hahn decomposition of signed measures, rather than treating it as an arbitrary convention."
 content_warning: ""

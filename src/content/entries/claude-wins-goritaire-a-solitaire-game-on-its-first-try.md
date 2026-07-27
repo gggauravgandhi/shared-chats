@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/466a84b1-fa93-4253-8909-346c34dc199b"
 provider: "claude"
 tags: ["games", "solitaire", "probability", "card-games", "strategy"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "A rare case of an AI genuinely mastering a game on the first attempt, with running arithmetic checks and a clean deterministic finish worked out under uncertainty."
 content_warning: ""

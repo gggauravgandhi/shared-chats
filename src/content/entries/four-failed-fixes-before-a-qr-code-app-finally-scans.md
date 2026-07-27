@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/9fe6a2e5-2f72-4837-98de-4a891a142343"
 provider: "claude"
 tags: ["coding", "debugging", "react", "web-dev", "qr-codes"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "A relatable debugging spiral — each 'fixed!' claim followed by a new failure — until the actual issue (no real QR spec being followed) gets found."
 content_warning: ""

@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/dc83401d-14af-4f12-b555-1bb1d2fad1de"
 provider: "claude"
 tags: ["ai", "alignment", "coherent-extrapolated-volition", "short-fiction", "yudkowsky"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "Pairs a rigorous explainer of an obscure AI-alignment proposal with a genuinely funny short story that dramatizes it as a couple arguing over dinner, plus the assistant's own breakdown of how each story beat maps to the theory."
 content_warning: ""

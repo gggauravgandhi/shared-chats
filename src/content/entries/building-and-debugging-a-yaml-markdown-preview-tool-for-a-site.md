@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/c96129b9-bcb0-4eba-aee9-4a7ad236dfb7"
 provider: "claude"
 tags: ["coding", "ai", "yaml", "debugging"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

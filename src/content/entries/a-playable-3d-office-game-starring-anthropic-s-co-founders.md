@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/49fc1904-1440-491f-a4bf-5ee7d498e724"
 provider: "claude"
 tags: ["coding", "games", "humor", "3d-graphics", "claude-artifacts"]
 date_discovered: 2026-07-26
+kind: "chat"
 featured: false
 curator_note: "A playful, self-referential build: an AI model asked to construct a walkable game world populated by parody versions of its own creators, then iteratively polished for controls and comic tone."
 content_warning: ""

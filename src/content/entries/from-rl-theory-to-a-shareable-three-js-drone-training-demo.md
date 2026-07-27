@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/804de4a9-c600-47b0-aef0-4890046f3a0e"
 provider: "claude"
 tags: ["ai", "coding", "explainers", "reinforcement-learning"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

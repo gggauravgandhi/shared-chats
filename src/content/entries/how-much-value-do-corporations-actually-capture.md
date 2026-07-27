@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/168beeee-1c73-439d-a0c5-bd02af3bd086"
 provider: "claude"
 tags: ["analysis", "economics", "research"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "A tight, citable answer to a deceptively simple question, backed by Nordhaus, Kogan et al., and Jones & Summers."
 content_warning: ""

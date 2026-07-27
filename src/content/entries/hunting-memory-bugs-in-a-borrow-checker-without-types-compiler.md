@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/05c0f205-b4a2-435e-a33c-cfeb3ce2de8e"
 provider: "claude"
 tags: ["coding", "ai", "analysis", "zig", "memory-safety"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "A rare example of an AI code review that goes past style nits into genuine memory-safety archaeology, naming the exact call sequence that triggers each bug."
 content_warning: ""

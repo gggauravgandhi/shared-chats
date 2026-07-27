@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/df001d9f-e700-4b8e-be4e-b28470f7f5cf"
 provider: "claude"
 tags: ["coding", "ai", "software-architecture", "research", "specifications"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "A rare example of genuine competitive and prior-art research conducted live with an AI — surveying Solid, FHIR, ASVS, and leaked system prompts from Lovable and Replit to locate a real gap in how AI agents build software."
 content_warning: ""

@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/012375c4-b04b-400a-b143-2525af5b5653"
 provider: "claude"
 tags: ["science", "biology", "diy", "explainers"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

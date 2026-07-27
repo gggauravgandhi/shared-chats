@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/7b8d41aa-9621-444b-8c1e-77e2f6fc0db7"
 provider: "claude"
 tags: ["humor", "coding", "games", "ai"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

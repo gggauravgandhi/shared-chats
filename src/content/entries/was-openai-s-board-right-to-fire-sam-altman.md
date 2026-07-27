@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/cab9cdab-226d-471b-83b7-66c3b7d5f7d4"
 provider: "claude"
 tags: ["analysis", "ai", "history", "business"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: ""
 content_warning: ""

@@ -5,6 +5,7 @@ source_url: "https://claude.ai/share/558ee678-705b-406c-ae85-b767ca903b6a"
 provider: "claude"
 tags: ["science", "agriculture", "regulation", "public-health", "chemistry"]
 date_discovered: 2026-07-27
+kind: "chat"
 featured: false
 curator_note: "Explains a detail most GMO debates miss: unlike Roundup, atrazine needs no engineered seed to work — a fact that reshapes who profits from keeping it legal."
 content_warning: ""
