@@ -8,27 +8,34 @@ import { websiteJsonLd } from '../lib/seo';
 
 const entries = (await getCollection('entries')).sort(byDateDesc);
 const featured = entries.filter((e) => e.data.featured).slice(0, 6);
-const recent = entries.slice(0, 12);
+const recentChats = entries.filter((e) => e.data.kind !== 'artifact').slice(0, 6);
+const recentArtifacts = entries.filter((e) => e.data.kind === 'artifact').slice(0, 6);
 ---
 
 <Base
   title="SharedChats — Interesting AI conversations, curated by humans"
-  description="A human-curated index of interesting, publicly shared AI conversations from Claude, ChatGPT, Gemini and more. Browse, search, and read the originals."
+  description="A human-curated index of interesting, publicly shared AI conversations and interactive artifacts from Claude, Gemini, ChatGPT and Grok. Browse, search, read the originals."
 >
   <JsonLd slot="head" data={websiteJsonLd()} />
   <section class="py-14">
     <h1 class="max-w-3xl text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl dark:text-zinc-50">
-      Interesting AI conversations
+      Interesting AI conversations and artifacts
     </h1>
     <p class="mt-4 max-w-2xl text-zinc-600 dark:text-zinc-400">
-      People share remarkable AI conversations and interactive artifacts every day — then they
-      vanish into feeds. SharedChats finds the ones worth your time and links you to the originals.
+      People share remarkable AI conversations and build strange, useful things with AI every day —
+      then it all vanishes into feeds. SharedChats keeps the ones worth your time and points you at
+      the originals. Nothing here is hosted; every entry is a signpost.
     </p>
-    <div class="mt-6">
+    <div class="mt-6 flex flex-wrap gap-3">
       <a
         href="/chats/"
         class="inline-block rounded-md bg-zinc-900 px-4 py-2 text-sm font-medium text-white hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-300"
-        >Browse all chats</a
+        >Browse conversations</a
+      >
+      <a
+        href="/artifacts/"
+        class="inline-block rounded-md border border-zinc-300 px-4 py-2 text-sm font-medium text-zinc-700 hover:border-zinc-500 hover:text-zinc-900 dark:border-zinc-700 dark:text-zinc-300 dark:hover:border-zinc-500 dark:hover:text-zinc-100"
+        >Browse artifacts</a
       >
     </div>
   </section>
@@ -39,6 +46,9 @@ const recent = entries.slice(0, 12);
         <h2 id="picks" class="text-xl font-semibold text-zinc-900 dark:text-zinc-50">
           Editor’s picks
         </h2>
+        <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+          The ones we would send to a friend without explaining why.
+        </p>
         <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {featured.map((e) => (
             <Card entry={e} />
@@ -48,13 +58,38 @@ const recent = entries.slice(0, 12);
     )
   }
 
-  <section class="py-6" aria-labelledby="recent">
+  <section class="py-6" aria-labelledby="chats">
     <div class="flex items-baseline justify-between">
-      <h2 id="recent" class="text-xl font-semibold text-zinc-900 dark:text-zinc-50">Recently added</h2>
-      <a href="/chats/" class="text-sm font-medium text-zinc-600 hover:underline dark:text-zinc-400">View all &rarr;</a>
+      <h2 id="chats" class="text-xl font-semibold text-zinc-900 dark:text-zinc-50">Conversations</h2>
+      <a href="/chats/" class="text-sm font-medium text-zinc-600 hover:underline dark:text-zinc-400"
+        >View all &rarr;</a
+      >
     </div>
     <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {recent.map((e) => <Card entry={e} />)}
+      {recentChats.map((e) => <Card entry={e} />)}
     </div>
   </section>
+
+  {
+    recentArtifacts.length > 0 && (
+      <section class="py-6" aria-labelledby="artifacts">
+        <div class="flex items-baseline justify-between">
+          <h2 id="artifacts" class="text-xl font-semibold text-zinc-900 dark:text-zinc-50">
+            Artifacts
+          </h2>
+          <a href="/artifacts/" class="text-sm font-medium text-zinc-600 hover:underline dark:text-zinc-400">
+            View all &rarr;
+          </a>
+        </div>
+        <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+          Tools, games, calculators and visualisations people built and published.
+        </p>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {recentArtifacts.map((e) => (
+            <Card entry={e} />
+          ))}
+        </div>
+      </section>
+    )
+  }
 </Base>
