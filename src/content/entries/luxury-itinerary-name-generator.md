@@ -1,0 +1,15 @@
+---
+title: "Luxury Itinerary Name Generator"
+description: "Generate elegant, personalized luxury travel itinerary names instantly. Perfect for travel professionals."
+source_url: "https://claude.ai/public/artifacts/5702dd20-5f3d-4102-9d27-7ce286af5783"
+provider: "claude"
+tags: ["generators", "planner", "travel"]
+date_discovered: 2026-07-27
+kind: "artifact"
+featured: false
+curator_note: ""
+content_warning: ""
+language: "en"
+status: "live"
+reddit_url: ""
+---
