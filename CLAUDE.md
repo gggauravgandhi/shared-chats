@@ -24,6 +24,10 @@ providers' own share pages.
    Never brand a feature around one provider (that is why `kind` is a separate
    field from `provider` — an artifact is not a Claude-only concept).
 5. Keep it lean: no component libraries, no CMS, no state management.
+6. **Do not build:** user submissions, contributor terms, dead-link checking,
+   takedown forms, Reddit integration, comments, votes, trending, controlled tag
+   vocabulary, newsletters, accounts. `reddit_url` exists in the schema only.
+   Why, and the items adjacent to these that *are* open, are in `docs/ROADMAP.md`.
 
 ## Editorial standards (learned the hard way — apply to every entry)
 
@@ -68,8 +72,8 @@ providers' own share pages.
 - After every deploy, purge the Cloudflare cache (see README) — otherwise new
   URLs serve stale 404s from the edge for several minutes.
 
-## Phase 2 — do not build
+## Roadmap
 
-User submissions, contributor terms, dead-link checking, takedown forms,
-Reddit integration, comments, votes, trending, controlled tag vocabulary,
-newsletters, accounts. `status` and `reddit_url` exist in the schema only.
+The backlog lives in `docs/ROADMAP.md` — read it before proposing or starting a
+feature. Constraint 6 above is the short form of its "not building" list; nothing
+else to track belongs in this file.
