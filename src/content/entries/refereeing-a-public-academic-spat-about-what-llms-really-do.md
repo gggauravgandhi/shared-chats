@@ -3,7 +3,7 @@ title: "Refereeing a public academic spat about what LLMs really do"
 description: "After explaining how preference training reshapes a model, it referees a philosophers argument, naming which rhetorical moves fail and which point lands."
 source_url: "https://claude.ai/share/9a1f262d-8730-41a8-aac3-ac4bc70bfebc"
 provider: "claude"
-tags: ["philosophy", "ai", "analysis", "debate"]
+tags: ["ai", "debate", "analysis", "machine-learning", "epistemology"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: true

@@ -3,7 +3,7 @@ title: "What Apple, Stripe, and Disney are really selling"
 description: "The user pushes back hard on Claude's critique of a \"what companies really sell\" list, and over several rounds Claude revises its reasoning until it holds up."
 source_url: "https://claude.ai/share/406e6fde-73d4-43b5-8d83-ca3ae9275d53"
 provider: "claude"
-tags: ["analysis", "business", "philosophy", "writing"]
+tags: ["business", "analysis", "debate", "marketing", "case-study"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

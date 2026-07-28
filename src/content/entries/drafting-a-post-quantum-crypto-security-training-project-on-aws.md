@@ -3,7 +3,7 @@ title: "Drafting a post-quantum crypto security-training project on AWS"
 description: "A long back-and-forth polishing a Dev.to post on a security-training project, working out hybrid ML-KEM plus X25519 encapsulation across Python, JS libraries."
 source_url: "https://claude.ai/share/71a81505-a49f-4fee-b2cd-d3ff09009af9"
 provider: "claude"
-tags: ["coding", "security", "cryptography", "post-quantum", "aws"]
+tags: ["software", "guide", "security", "python", "javascript"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: true

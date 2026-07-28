@@ -3,7 +3,7 @@ title: "A short story about an AI-assisted author confronting his streak"
 description: "A daily AI-assisted fiction writer is confronted by an ominous accountant-figure about a late post, in a tight two-message dialogue with a chilling final image."
 source_url: "https://claude.ai/share/b625ec5a-8285-44c8-9a76-a41b63297ec0"
 provider: "claude"
-tags: ["creative", "writing", "fiction", "ai", "short-story"]
+tags: ["writing", "fiction", "storytelling", "llm", "case-study"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

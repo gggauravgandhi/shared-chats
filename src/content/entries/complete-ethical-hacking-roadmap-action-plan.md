@@ -3,7 +3,7 @@ title: "Complete Ethical Hacking Roadmap & Action Plan"
 description: "A rendered markdown study plan for learning ethical hacking, broken into weekly phases covering lab setup, Kali Linux, and hands-on practice platforms."
 source_url: "https://claude.ai/public/artifacts/e3fa8015-2f98-44ad-b8c4-86d1217cad04"
 provider: "claude"
-tags: ["reports-analysis", "project-management"]
+tags: ["software", "timeline", "security", "tutorial", "study-skills"]
 date_discovered: 2026-07-27
 kind: "artifact"
 featured: false

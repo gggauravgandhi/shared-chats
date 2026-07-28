@@ -3,7 +3,7 @@ title: "Resolving Prediction-Market Questions About Congress"
 description: "The user corrects the assistant's sloppy reading of a prediction market twice, forcing precise, cited answers about the 118th Congress's real 2024 actions."
 source_url: "https://claude.ai/share/99a6bdb8-b7c4-4c02-876d-785bf2f74298"
 provider: "claude"
-tags: ["analysis", "politics", "prediction-markets", "research"]
+tags: ["society", "fact-check", "politics", "epistemology", "research"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

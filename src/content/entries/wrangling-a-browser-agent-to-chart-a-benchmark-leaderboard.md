@@ -3,7 +3,7 @@ title: "Wrangling a Browser Agent to Chart a Benchmark Leaderboard"
 description: "Claude uses a browser agent to open a benchmark leaderboard, then iterates through several failed attempts to inject percentage labels onto a live chart."
 source_url: "https://claude.ai/share/81a0c519-c727-4caa-b0d4-0d866375d0da"
 provider: "claude"
-tags: ["ai", "coding", "explainers"]
+tags: ["ai", "case-study", "agents", "web-dev", "debugging"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

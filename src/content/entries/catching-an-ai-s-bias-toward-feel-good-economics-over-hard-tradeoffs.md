@@ -3,7 +3,7 @@ title: "Catching an AI's bias toward feel-good economics over hard tradeoffs"
 description: "A user pushes back on claims about 1840s child labor until the AI admits it defaults to comforting economic narratives over contested empirical debates."
 source_url: "https://claude.ai/share/b0db331a-6cb6-4598-9b09-888cf4896ed4"
 provider: "claude"
-tags: ["ai", "ai-bias", "economic-history", "industrial-revolution", "epistemic-humility"]
+tags: ["ai", "fact-check", "economics", "ai-safety", "epistemology"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: false

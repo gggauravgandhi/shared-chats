@@ -3,7 +3,7 @@ title: "Reviving a 1997 VB4 App in Python, Then a Viral Reddit Post"
 description: "The user revives a 1997 Visual Basic 4 executable as a Python sound toy with Claude's help, then asks it to write a self-hyping viral Reddit post."
 source_url: "https://claude.ai/share/3eecebc5-ff9a-4363-a1e6-e5c245b81a16"
 provider: "claude"
-tags: ["coding", "python", "legacy-software", "pygame", "reverse-engineering"]
+tags: ["software", "python", "humor", "media", "case-study"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: false

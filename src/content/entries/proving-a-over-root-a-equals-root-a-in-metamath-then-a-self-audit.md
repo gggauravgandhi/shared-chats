@@ -3,7 +3,7 @@ title: "Proving A over root(A) equals root(A) in Metamath, then a self-audit"
 description: "The user guides Claude through a Metamath tool to formally prove A over root(A) equals root(A), then has it explain its own search-syntax mistakes."
 source_url: "https://claude.ai/share/e0ecdc5c-a9e5-4712-829e-46bbce0de623"
 provider: "claude"
-tags: ["math", "metamath", "theorem-proving", "formal-verification", "tool-use"]
+tags: ["mathematics", "case-study", "proofs", "logic", "agents"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: false

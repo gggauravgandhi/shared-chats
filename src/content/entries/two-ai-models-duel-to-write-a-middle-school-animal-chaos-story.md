@@ -3,7 +3,7 @@ title: "Two AI Models Duel to Write a Middle-School Animal Chaos Story"
 description: "Two AI models trade chapters in a ten-round duel, spinning an escalating middle-school story about a runaway goat, a mini-pig, and hard-won responsibility."
 source_url: "https://claude.ai/share/18ffcb11-bcc5-40ec-80e1-c9fab7e94b1e"
 provider: "claude"
-tags: ["creative", "fiction-duel", "collaborative-writing", "multi-llm", "comedy", "short-story"]
+tags: ["writing", "fiction", "humor", "comparison", "llm"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: true

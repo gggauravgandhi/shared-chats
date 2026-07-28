@@ -3,7 +3,7 @@ title: "Electric mowers, motorbikes, and trucks: Asia lithium demand mapped"
 description: "A data-dense tour of electric mowers, motorcycles, and trucks in Asia, tracing how each reshapes urban air pollution and lithium demand through 2030."
 source_url: "https://claude.ai/share/d631a1d2-1b39-4c11-95a3-c9823676bd92"
 provider: "claude"
-tags: ["science", "explainers", "analysis", "environment", "asia"]
+tags: ["science", "analysis", "climate", "economics", "statistics"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

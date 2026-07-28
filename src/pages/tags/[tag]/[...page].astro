@@ -23,15 +23,15 @@ const pageSuffix = page.currentPage > 1 ? ` — page ${page.currentPage}` : '';
 ---
 
 <Base
-  title={`Chats tagged “${tag}”${pageSuffix} — SharedChats`}
-  description={`All ${page.total} curated AI conversation${page.total === 1 ? '' : 's'} tagged “${tag}” on SharedChats, newest first, with links to the original share pages.`}
+  title={`Tagged “${tag}”${pageSuffix} — SharedChats`}
+  description={`All ${page.total} curated AI conversation${page.total === 1 ? '' : 's'} and artifact${page.total === 1 ? '' : 's'} tagged “${tag}” on SharedChats, newest first, with links to the original share pages.`}
 >
   <JsonLd
     slot="head"
     data={[
       collectionPageJsonLd({
-        name: `Chats tagged “${tag}”`,
-        description: `Curated AI conversations tagged “${tag}”.`,
+        name: `Tagged “${tag}”`,
+        description: `Curated AI conversations and artifacts tagged “${tag}”.`,
         path: page.currentPage > 1 ? `/tags/${tag}/${page.currentPage}/` : `/tags/${tag}/`,
         itemPaths: page.data.map((e: any) => entryPath(e)),
       }),
@@ -50,7 +50,7 @@ const pageSuffix = page.currentPage > 1 ? ` — page ${page.currentPage}` : '';
     </nav>
     <h1 class="mt-3 text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">#{tag}</h1>
     <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-      {page.total} conversation{page.total === 1 ? '' : 's'} with this tag.
+      {page.total} entr{page.total === 1 ? 'y' : 'ies'} with this tag.
     </p>
     <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {page.data.map((e: any) => <Card entry={e} />)}

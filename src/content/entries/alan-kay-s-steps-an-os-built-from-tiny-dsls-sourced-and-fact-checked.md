@@ -3,7 +3,7 @@ title: "Alan Kay's STEPS: an OS built from tiny DSLs, sourced and fact-checked"
 description: "Explains Alan Kay's STEPS project — rebuilding an OS in 20,000 lines via custom mini-languages — then supplies links and a skeptical counter-read."
 source_url: "https://claude.ai/share/a50c5e0f-4834-48d6-9e6f-abe7f332a2e7"
 provider: "claude"
-tags: ["explainers", "history", "coding", "computer-science"]
+tags: ["software", "explainer", "fact-check", "reference", "open-source"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

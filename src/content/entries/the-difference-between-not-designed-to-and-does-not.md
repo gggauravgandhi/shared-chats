@@ -3,7 +3,7 @@ title: "The difference between not designed to and does not"
 description: "Asked to judge a blunt description of language models without nitpicking, it flags one overreach: not built to model the world versus not doing so at all."
 source_url: "https://claude.ai/share/6a960d71-418c-4f5f-aa93-668fcebb5746"
 provider: "claude"
-tags: ["philosophy", "ai", "explainers"]
+tags: ["ai", "analysis", "llm", "epistemology", "fact-check"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

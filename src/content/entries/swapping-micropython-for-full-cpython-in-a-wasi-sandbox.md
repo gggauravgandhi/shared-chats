@@ -3,7 +3,7 @@ title: "Swapping MicroPython for full CPython in a WASI sandbox"
 description: "The user tests whether a WASI Python sandbox can swap MicroPython for full CPython, verifying startup cost, fuel limits, and a tricky zip-stdlib bug fix."
 source_url: "https://claude.ai/share/a73b8b8b-8ebc-4fef-9e5c-7438e5e7ae35"
 provider: "claude"
-tags: ["coding", "webassembly", "python", "sandboxing", "wasi", "packaging"]
+tags: ["software", "case-study", "python", "debugging", "security"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: false

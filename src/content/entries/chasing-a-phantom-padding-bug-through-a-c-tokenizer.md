@@ -3,7 +3,7 @@ title: "Chasing a phantom padding bug through a C++ tokenizer"
 description: "A long hunt for pad tokens appearing at the start of every chunk, ending in a switch to left-padding so the last token lands where embeddings want it."
 source_url: "https://claude.ai/share/7e8d8cd9-1396-46c5-b3bc-bd9093aaf44b"
 provider: "claude"
-tags: ["coding", "cpp", "debugging", "machine-learning"]
+tags: ["software", "debugging", "algorithms", "machine-learning", "case-study"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

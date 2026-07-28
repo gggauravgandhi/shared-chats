@@ -3,7 +3,7 @@ title: "What Humanity Secretly Believes About Itself"
 description: "A sprawling essay-style exchange has the assistant synthesize how humans across history have judged themselves, believed in fairness, and faced death."
 source_url: "https://claude.ai/share/4e83ed36-eb95-4713-a071-43a25e95962f"
 provider: "claude"
-tags: ["philosophy", "humanity", "culture", "psychology"]
+tags: ["philosophy", "analysis", "psychology", "ethics", "explainer"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

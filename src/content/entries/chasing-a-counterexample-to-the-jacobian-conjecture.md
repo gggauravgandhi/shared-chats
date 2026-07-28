@@ -3,7 +3,7 @@ title: "Chasing a Counterexample to the Jacobian Conjecture"
 description: "Claude runs a disciplined symbolic search for a map that would refute the eighty-year-old Jacobian conjecture, and the hunt turns up something startling."
 source_url: "https://claude.ai/share/80526d56-1c23-407d-8f5c-59a704221454"
 provider: "claude"
-tags: ["math", "science", "analysis", "explainers"]
+tags: ["mathematics", "research", "proofs", "algorithms", "analysis"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: true

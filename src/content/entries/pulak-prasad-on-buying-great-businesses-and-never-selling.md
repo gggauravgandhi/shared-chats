@@ -3,7 +3,7 @@ title: "Pulak Prasad on Buying Great Businesses and Never Selling"
 description: "A recap of an investor's talk on buying cheap, exceptional businesses and never selling, with Q&A anecdotes and lessons for early-stage VCs in India."
 source_url: "https://claude.ai/share/7d199f8d-eab1-4f9f-85d5-981b560c77b0"
 provider: "claude"
-tags: ["analysis", "investing", "venture-capital", "india", "compounding"]
+tags: ["finance", "analysis", "investing", "startup", "guide"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: true

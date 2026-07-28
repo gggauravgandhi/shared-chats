@@ -3,7 +3,7 @@ title: "Would a 100 percent tax on one federal fund survive court?"
 description: "A proposed state bill taxing a single federal payout at full value gets tested against two doctrines, and the older one turns out to be the cleaner kill."
 source_url: "https://claude.ai/share/239f4a67-7bf7-48f8-9718-843ffc65dce6"
 provider: "claude"
-tags: ["analysis", "law", "politics", "explainers"]
+tags: ["society", "analysis", "law", "politics", "explainer"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: true

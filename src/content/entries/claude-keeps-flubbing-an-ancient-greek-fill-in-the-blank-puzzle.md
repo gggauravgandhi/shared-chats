@@ -3,7 +3,7 @@ title: "Claude keeps flubbing an Ancient Greek fill-in-the-blank puzzle"
 description: "Claude repeatedly flubs an Ancient Greek word-bank exercise, gets corrected by the user each time, and ultimately admits it's stuck placing one leftover word."
 source_url: "https://claude.ai/share/3387b90d-6821-4c53-a2ba-3ea8235099b7"
 provider: "claude"
-tags: ["games", "ancient-greek", "grammar", "logic-puzzle", "language-learning"]
+tags: ["language", "case-study", "puzzle", "logic", "llm"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: false

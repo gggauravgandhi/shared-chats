@@ -3,7 +3,7 @@ title: "Designing a dystopian mayor sim where oppression looks wholesome"
 description: "A no-code SimCity-style game design where the player secretly manufactures consent, weaponizing propaganda and false flags behind a cheerful isometric UI."
 source_url: "https://claude.ai/share/e64a65c6-31d4-4bf6-987d-46e1e1ad8cd3"
 provider: "claude"
-tags: ["games", "game-design", "satire", "ai", "dystopia"]
+tags: ["games", "case-study", "politics", "media", "ethics"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: true

@@ -12,17 +12,20 @@ export async function liveEntries(where?: (e: Entry) => boolean): Promise<Entry[
   return where ? live.filter(where) : live;
 }
 
-// Tags common enough to be worth a search facet. Every tag stays searchable as
-// text; only these get a checkbox, or the filter pane becomes the 541-item wall
-// that /tags/ already is.
-export const TAG_FACET_MIN = 5;
-
-export function facetTags(all: Entry[], min = TAG_FACET_MIN): Set<string> {
-  const counts = new Map<string, number>();
+// Counts across the collection, split on the tags[0]-is-the-category convention
+// the schema enforces.
+export function tagCounts(all: Entry[]): { categories: [string, number][]; tags: [string, number][] } {
+  const cat = new Map<string, number>();
+  const tag = new Map<string, number>();
   for (const e of all) {
-    for (const t of e.data.tags) counts.set(t, (counts.get(t) ?? 0) + 1);
+    e.data.tags.forEach((t, i) => {
+      const m = i === 0 ? cat : tag;
+      m.set(t, (m.get(t) ?? 0) + 1);
+    });
   }
-  return new Set([...counts].filter(([, n]) => n >= min).map(([t]) => t));
+  const rank = (m: Map<string, number>): [string, number][] =>
+    [...m.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  return { categories: rank(cat), tags: rank(tag) };
 }
 
 export const PROVIDER_LABELS: Record<string, string> = {

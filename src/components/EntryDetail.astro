@@ -11,7 +11,6 @@ import {
   formatDate,
   relatedEntries,
   entryPath,
-  facetTags,
   liveEntries,
   PROVIDER_LABELS,
   type Entry,
@@ -27,7 +26,6 @@ const { title, description, source_url, provider, tags, date_discovered, curator
   entry.data;
 const all = (await liveEntries()).sort(byDateDesc);
 const related = relatedEntries(entry, all);
-const facet = facetTags(all);
 const hasBody = entry.body && entry.body.trim().length > 0;
 const { Content } = await render(entry);
 const providerLabel = PROVIDER_LABELS[provider] ?? provider;
@@ -123,14 +121,15 @@ const path = entryPath(entry);
     </div>
 
     {/* Deliberately NOT pagefind-ignored: a tag is the only place a topic word like
-        "three-js" appears on the page, so ignoring this block left tags unsearchable.
-        Tags at or above TAG_FACET_MIN also carry a filter value. Pagefind skips
-        hidden elements, so the facet has to hang off the visible pill. */}
+        "astronomy" appears on the page, so ignoring this block left tags unsearchable.
+        <li> rather than inline spans because Pagefind gives adjacent inline elements
+        no word boundary and indexes them as one merged token. tags[0] is always the
+        category — it gets its own facet and the filled pill. */}
     <ul class="mt-6 flex flex-wrap gap-1.5">
       {
-        tags.map((t) => (
-          <li data-pagefind-filter={facet.has(t) ? `tag:${t}` : undefined}>
-            <TagPill tag={t} />
+        tags.map((t, i) => (
+          <li data-pagefind-filter={i === 0 ? `category:${t}` : `tag:${t}`}>
+            <TagPill tag={t} category={i === 0} />
           </li>
         ))
       }

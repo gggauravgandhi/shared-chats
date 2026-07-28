@@ -3,7 +3,7 @@ title: "A from-scratch guide to porting a diffusion model to WebGPU"
 description: "Claude clones a browser-based diffusion model port and writes a from-scratch guide covering ONNX export, WebGPU execution, and every design choice in the code."
 source_url: "https://claude.ai/share/d11b8f2b-a52d-4ca2-be75-a710eaf18572"
 provider: "claude"
-tags: ["explainers", "ai", "coding", "onnx", "webgpu"]
+tags: ["software", "guide", "machine-learning", "web-dev", "javascript"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

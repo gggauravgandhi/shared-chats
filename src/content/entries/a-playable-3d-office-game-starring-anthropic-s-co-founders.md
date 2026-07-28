@@ -3,7 +3,7 @@ title: "A Playable 3D Office Game Starring Anthropic's Co-Founders"
 description: "The user iteratively refines a 3D browser game where Anthropic's co-founders wander an office with quirky personalities, jokes, and dance moves."
 source_url: "https://claude.ai/share/49fc1904-1440-491f-a4bf-5ee7d498e724"
 provider: "claude"
-tags: ["coding", "games", "humor", "3d-graphics", "claude-artifacts"]
+tags: ["games", "case-study", "web-dev", "javascript", "humor"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: false

@@ -41,6 +41,6 @@ const { title, description, provider, tags, date_discovered, content_warning, fe
     }
   </div>
   <div class="mt-2 flex flex-wrap gap-1.5">
-    {tags.map((t) => <TagPill tag={t} />)}
+    {tags.map((t, i) => <TagPill tag={t} category={i === 0} />)}
   </div>
 </article>

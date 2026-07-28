@@ -3,7 +3,7 @@ title: "Trying to unlock a secret Claude feature that doesn't exist"
 description: "The user tries a made-up command to unlock a hidden feature, so Claude improvises a playful interactive letter-counting toy for the word strawberry instead."
 source_url: "https://claude.ai/share/7b8d41aa-9621-444b-8c1e-77e2f6fc0db7"
 provider: "claude"
-tags: ["humor", "coding", "games", "ai"]
+tags: ["ai", "humor", "case-study", "prompting", "generator"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

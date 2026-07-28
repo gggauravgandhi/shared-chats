@@ -3,7 +3,7 @@ title: "Partnership Building & Management Training"
 description: "Slide deck covering why and how to build organizational partnerships, including mutual benefit, resource access, and a step-by-step partnership process."
 source_url: "https://claude.ai/public/artifacts/dec0dfd0-ce04-4c92-aa2c-ca71c15672eb"
 provider: "claude"
-tags: ["presentations", "building", "partnership"]
+tags: ["business", "presentation", "guide", "reference", "template"]
 date_discovered: 2026-07-27
 kind: "artifact"
 featured: false

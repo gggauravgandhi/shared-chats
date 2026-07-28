@@ -3,7 +3,7 @@ title: "Reconciling Coase and Myerson-Satterthwaite in one exam question"
 description: "Claude writes and answers a PhD-level exam question that pits the Coase theorem against Myerson-Satterthwaite, using partnership law to resolve the clash."
 source_url: "https://claude.ai/share/2db49072-b4e9-4ea2-ad68-2acbfc438f2f"
 provider: "claude"
-tags: ["analysis", "economics", "game-theory", "academia"]
+tags: ["business", "analysis", "economics", "law", "logic"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

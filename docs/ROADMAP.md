@@ -13,22 +13,53 @@ Roughly ordered by value ÷ cost. Unchecked = not started. (Items 1–5 here wer
 1, 2, 4, 5, 6 in the original shortlist; the old item 3 is under *Considered and
 skipped*.)
 
-### [ ] 1. Thin the tag surface
+### [x] 1. Thin the tag surface — shipped 2026-07-28 as a controlled vocabulary
 
-`/tags/` renders all 541 tags as pills, and we generate 541 tag pages of which
-462 hold 1–4 entries. Unscannable for a human, thin content for a crawler.
+The original plan here was the cheap version: hide rare tags on `/tags/` and
+`noindex` their pages, explicitly *because* a controlled vocabulary was banned.
+The operator lifted the ban, so the durable fix shipped instead.
 
-- Show only tags with ≥ 5 entries in the main cloud on `src/pages/tags/index.astro`;
-  drop the rest below a smaller heading or omit them.
-- Emit `<meta name="robots" content="noindex,follow">` on tag pages under the
-  threshold (`src/pages/tags/[tag]/[...page].astro`), so the pages still resolve
-  for existing links but stop competing in the index.
-- ~10 lines, 2 files. Keep the pages — deleting routes would break inbound links
-  and the post-build link check.
+**Before:** 541 free-form tags, 462 of them on fewer than 5 entries, 1–6 per
+entry, mixing three axes in one flat list — domain (`finance`), format
+(`dashboard`) and medium (`interactive`).
 
-**Needs your call:** the durable fix is a controlled tag vocabulary, which is on
-the *Not building* list below. This item is the version that does not touch it
-and does not re-tag 524 files.
+**Now:** 20 `CATEGORIES` + 80 `TAGS` declared in `src/content.config.ts`. Every
+entry carries exactly 5 values: `tags[0]` is the category, `tags[1..4]` are tags.
+The schema enforces it and names the offending value on failure. Separating the
+axes is what made the list shrinkable — categories are domains, while tags carry
+format (what an artifact *is*) and treatment (what a conversation *does*)
+alongside topic.
+
+All 20 categories and all 80 tags are in use; nothing in the vocabulary is dead.
+Category spread: ai 72, business 67, software 66, finance 38, education 37,
+health 33, science 25, games 24, arts 22, language 20, philosophy 19, society 19,
+writing 18, productivity 13, history 11, mathematics 11, engineering 9,
+lifestyle 9, data 8, culture 3.
+
+**How it was done:** 524 entries re-tagged by fanned-out agents reading each
+entry's title and description, every batch then rechecked by a second adversarial
+agent. An apply script validated all 524 against the vocabulary and refused to
+write unless every one passed, then rewrote both the markdown and the `tags`
+column in `data/entries.csv`.
+
+**Known gaps, deliberately left:**
+
+- No `music` or `film` tag. A jazz-composition entry ends up with three treatment
+  tags because nothing topical fits. `converter` is the weakest slot (7 entries)
+  and would be the one to trade if this becomes annoying — not free, since it
+  means re-tagging those entries.
+- A few pure fiction-generation chats carry no treatment tag: none of
+  explainer/analysis/guide/research/reference/tutorial/comparison/debate/
+  case-study/fact-check honestly describes "wrote a short story". Padding one in
+  would be exactly the lazy tagging the vocabulary exists to prevent.
+- `culture` holds only 3 entries. Watch it; if it stays that thin, fold it into
+  `society` or `arts`.
+
+**Fallout:** the old vocabulary generated 541 tag pages, the new one generates
+100. The retired tag URLs now 404. Nothing on the site links to them — the
+post-build link check is clean — but external and indexed links break. A
+`public/_redirects` map from retired tag to nearest surviving category is the fix
+if that matters; not built, since most of those pages held 1–2 entries.
 
 ### [x] 2. Pagefind filters on /search — shipped 2026-07-27
 
@@ -76,10 +107,10 @@ Pagefind and need no new dependency.
   fragment (`gunzip -c dist/pagefind/fragment/*.pf_fragment`) to see the actual
   per-page filter values. The count alone would not have caught the bug above.
 
-### [ ] 3. provider × kind listing pages — blocked on the data, not on effort
+### [ ] 3. provider × kind listing pages — PENDING, decide later
 
-Approved 2026-07-27 and then not built, because measuring the actual distribution
-killed the premise. The item was scoped against the 8-value `PROVIDERS` enum; only
+Approved 2026-07-27, then parked at the operator's direction pending a later
+decision. Not built because measuring the actual distribution killed the premise. The item was scoped against the 8-value `PROVIDERS` enum; only
 4 are live, and the kinds are not spread across them at all:
 
 | combination | entries |
@@ -166,8 +197,11 @@ build-time version, or drop the item.
 ## Not building
 
 User submissions, contributor terms, dead-link checking, takedown forms, Reddit
-integration, comments, votes, trending, controlled tag vocabulary, newsletters,
-accounts. `reddit_url` exists in the schema only (see item 4 for `status`).
+integration, comments, votes, trending, newsletters, accounts. `reddit_url`
+exists in the schema only (see item 4 for `status`).
+
+**Removed from this list 2026-07-28:** controlled tag vocabulary. The operator
+reversed the ban and it shipped — see item 1.
 
 This list is also constraint 6 in `CLAUDE.md`, so an agent reading only that file
 still sees it. Keep the two in sync — `CLAUDE.md` carries the bare list, the

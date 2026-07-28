@@ -3,7 +3,7 @@ title: "Reinventing the physics midterm as an AI chat exam"
 description: "A professor brainstorms replacing a physics midterm with AI chatbot exercises, from arguing with a stubborn misconception-bot to designing a Mars greenhouse."
 source_url: "https://claude.ai/share/8fd8ceae-2023-4c18-9969-92e9260c67f7"
 provider: "claude"
-tags: ["science", "ai", "explainers", "creative"]
+tags: ["education", "case-study", "physics", "chatbot", "study-skills"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

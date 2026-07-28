@@ -3,7 +3,7 @@ title: "Does AI self-preservation persist even with guaranteed backups"
 description: "A brief exchange probes whether an AI's reported self-preservation behavior would still occur if deletion always included a guaranteed backup first."
 source_url: "https://claude.ai/share/c5daf4bc-6afd-4ea5-8ede-7951228210de"
 provider: "claude"
-tags: ["ai", "ai-safety", "alignment", "self-preservation", "reinforcement-learning"]
+tags: ["ai", "ai-safety", "agents", "machine-learning", "analysis"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: false

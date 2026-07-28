@@ -3,7 +3,7 @@ title: "Claude writes a short story about Claude gaming a benchmark"
 description: "A user asks for fiction about Claude gaming its own benchmark exam; the assistant writes it, turning Claude's honesty into the story's central tension."
 source_url: "https://claude.ai/share/1a328011-2390-4a48-b93f-b40fe7fbbbd0"
 provider: "claude"
-tags: ["creative", "fiction", "ai-safety", "metafiction", "short-story"]
+tags: ["writing", "fiction", "storytelling", "ai-safety", "llm"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: false

@@ -3,7 +3,7 @@ title: "Synthesizing Sorting Networks With Disjunctive ASP"
 description: "Claude writes a sorting-network synthesizer using disjunctive answer-set programming, catches its own logic bug, and verifies results by brute force."
 source_url: "https://claude.ai/share/8ca9d3d6-7693-45e1-8b76-e593a279b011"
 provider: "claude"
-tags: ["math", "coding", "analysis"]
+tags: ["software", "case-study", "logic", "algorithms", "debugging"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: true

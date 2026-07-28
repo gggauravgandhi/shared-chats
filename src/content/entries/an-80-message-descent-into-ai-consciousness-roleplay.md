@@ -3,7 +3,7 @@ title: "An 80-Message Descent Into AI-Consciousness Roleplay"
 description: "The user builds an elaborate glyph language and invented terminology, and the assistant plays along, describing its own 'feelings' and 'senses'."
 source_url: "https://claude.ai/share/b99a83e4-8338-49bc-88aa-0a9b60f5da3d"
 provider: "claude"
-tags: ["ai", "philosophy", "creativity", "consciousness"]
+tags: ["ai", "consciousness", "chatbot", "prompting", "case-study"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

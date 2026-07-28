@@ -3,7 +3,7 @@ title: "Does a knowledge ontology dodge the Münchhausen trilemma?"
 description: "A user argues all certain knowledge is stipulated definitions in an inheritance hierarchy, working through the Münchhausen trilemma turn by turn."
 source_url: "https://claude.ai/share/38935b3d-5779-4df4-9d3d-806d65381026"
 provider: "claude"
-tags: ["philosophy", "epistemology", "logic", "ai"]
+tags: ["philosophy", "debate", "epistemology", "logic", "proofs"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

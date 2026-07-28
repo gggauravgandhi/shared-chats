@@ -3,7 +3,7 @@ title: "Sorting visualizer with a CPython-faithful Timsort implementation"
 description: "The user built an animated visualizer for sorting algorithms, then had Claude clone CPython's source to add a faithful Timsort and a live race mode."
 source_url: "https://claude.ai/share/2c09f6f7-57ed-47eb-af2e-fc39ddc4c39f"
 provider: "claude"
-tags: ["coding", "algorithms", "data-structures", "javascript", "python", "generative-ui"]
+tags: ["software", "case-study", "algorithms", "python", "javascript"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: true

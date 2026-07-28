@@ -3,7 +3,7 @@ title: "An AI-assisted archive project for a 25,000-page personal manuscript"
 description: "Across 46 messages, Claude helps someone wrangle a sprawling personal manuscript archive into one canonical anthology, resolving version conflicts one by one."
 source_url: "https://claude.ai/share/2847b0a0-dc92-4d9e-8bd0-4335bcca0d20"
 provider: "claude"
-tags: ["ai", "writing", "analysis", "archiving"]
+tags: ["writing", "case-study", "llm", "research", "reference"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

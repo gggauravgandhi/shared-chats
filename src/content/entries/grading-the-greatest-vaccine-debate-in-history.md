@@ -3,7 +3,7 @@ title: "Grading the 'Greatest Vaccine Debate in History'"
 description: "Claude assesses a viral vaccine debate for logical rigor, personal attacks, and whether any of its six questions were actually resolved (none were)."
 source_url: "https://claude.ai/share/7c91311e-85c4-486b-85fb-7c3c87c455d6"
 provider: "claude"
-tags: ["analysis", "science", "philosophy", "media-criticism"]
+tags: ["philosophy", "fact-check", "debate", "logic", "misinformation"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

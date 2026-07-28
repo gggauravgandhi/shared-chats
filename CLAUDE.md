@@ -25,9 +25,11 @@ providers' own share pages.
    field from `provider` — an artifact is not a Claude-only concept).
 5. Keep it lean: no component libraries, no CMS, no state management.
 6. **Do not build:** user submissions, contributor terms, dead-link checking,
-   takedown forms, Reddit integration, comments, votes, trending, controlled tag
-   vocabulary, newsletters, accounts. `reddit_url` exists in the schema only.
+   takedown forms, Reddit integration, comments, votes, trending, newsletters,
+   accounts. `reddit_url` exists in the schema only.
    Why, and the items adjacent to these that *are* open, are in `docs/ROADMAP.md`.
+   (A controlled tag vocabulary was on this list until 2026-07-28, when the
+   operator reversed it and it shipped — see the tag convention below.)
 
 ## Editorial standards (learned the hard way — apply to every entry)
 
@@ -59,6 +61,12 @@ providers' own share pages.
   route: `/chats/[slug]/` or `/artifacts/[slug]/`. Both render through
   `src/components/EntryDetail.astro`; use `entryPath()` from `src/lib/entries.ts`
   for any link to an entry — never hardcode `/chats/`.
+- **Tags are a closed vocabulary** declared in `src/content.config.ts`: 20
+  `CATEGORIES` and 80 `TAGS`. Every entry carries exactly 5 values — `tags[0]` is
+  the category and renders as the filled leading pill, `tags[1..4]` are tags. The
+  schema rejects anything else at build time and names the offending value. Adding
+  a vocabulary value is an editorial decision about the whole corpus, never a
+  shortcut for one awkward entry; the list is small on purpose.
 - **Read the entry collection only through `liveEntries()`** in
   `src/lib/entries.ts`; never call `getCollection('entries')` anywhere else. It is
   the single point that drops non-`live` entries, so bypassing it silently

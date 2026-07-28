@@ -3,7 +3,7 @@ title: "Claude verifies a claimed counterexample to the Jacobian conjecture"
 description: "Claude verifies a proposed counterexample to the 87-year-old Jacobian conjecture, confirms it holds, then reconstructs how it might have been derived."
 source_url: "https://claude.ai/share/22abed98-d9af-43c5-9881-b19e009a07b0"
 provider: "claude"
-tags: ["math", "jacobian-conjecture", "algebraic-geometry", "polynomial-maps", "ai-self-reflection"]
+tags: ["mathematics", "fact-check", "proofs", "logic", "llm"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: false

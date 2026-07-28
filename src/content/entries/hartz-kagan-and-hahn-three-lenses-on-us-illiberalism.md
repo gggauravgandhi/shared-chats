@@ -3,7 +3,7 @@ title: "Hartz, Kagan, and Hahn: three lenses on US illiberalism"
 description: "A tight comparison of three competing theories of American illiberalism, then a sharp turn to steelmanning postliberal thinkers on their own terms."
 source_url: "https://claude.ai/share/5baa0bf2-ce26-49ae-addf-79c13cf27a66"
 provider: "claude"
-tags: ["history", "philosophy", "analysis", "politics"]
+tags: ["philosophy", "comparison", "politics", "debate", "analysis"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: true

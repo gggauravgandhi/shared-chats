@@ -3,7 +3,7 @@ title: "Pricing out a silent data center with a Maya Lin facade"
 description: "A cost estimate for making the world's largest data center campus silent and beautiful, complete with real court rulings and dry hyperscaler humor."
 source_url: "https://claude.ai/share/95682b92-241b-4cdd-a083-b759a3d5a263"
 provider: "claude"
-tags: ["humor", "analysis", "real-estate", "engineering"]
+tags: ["engineering", "analysis", "humor", "law", "budgeting"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: true

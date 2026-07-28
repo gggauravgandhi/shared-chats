@@ -3,7 +3,7 @@ title: "A Rigorous Takedown of an Evolutionary Psychology Study"
 description: "The assistant first summarizes a study linking evolutionary framing of male aggression to victim-blaming, then dissects its methodology for overreach."
 source_url: "https://claude.ai/share/e42ec39a-6070-43d3-a015-43245b6322bd"
 provider: "claude"
-tags: ["analysis", "science", "psychology", "research-methods"]
+tags: ["science", "analysis", "psychology", "ethics", "fact-check"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

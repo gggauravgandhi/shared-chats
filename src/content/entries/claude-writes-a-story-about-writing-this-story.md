@@ -3,7 +3,7 @@ title: "Claude writes a story about writing this story"
 description: "A short recursive tale where Claude, days after its public release, muses on the very prompt asking it to write about itself waking into existence and thinking."
 source_url: "https://claude.ai/share/46d3a76c-a901-4a33-9e08-cd817810f8bf"
 provider: "claude"
-tags: ["creative", "writing", "ai", "humor"]
+tags: ["writing", "fiction", "storytelling", "consciousness", "humor"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

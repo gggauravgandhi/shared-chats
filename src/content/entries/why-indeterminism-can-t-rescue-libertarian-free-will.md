@@ -3,7 +3,7 @@ title: "Why indeterminism can't rescue libertarian free will"
 description: "Claude reviews a critique of a libertarian free will paper, probing whether indeterminism can both need constraining and enhance moral responsibility."
 source_url: "https://claude.ai/share/eb7c2e26-ddb9-40bb-824c-1245db90a61e"
 provider: "claude"
-tags: ["philosophy", "free-will", "indeterminism", "moral-responsibility", "libertarianism"]
+tags: ["philosophy", "analysis", "ethics", "consciousness", "logic"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: false

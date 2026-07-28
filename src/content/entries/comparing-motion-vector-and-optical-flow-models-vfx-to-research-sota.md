@@ -3,7 +3,7 @@ title: "Comparing motion vector and optical flow models: VFX to research SOTA"
 description: "Compares classical VFX motion-vector tools like Flame and Nuke against NVIDIA's optical-flow hardware and a decade of RAFT-lineage research models."
 source_url: "https://claude.ai/share/4edc67ba-7401-4f2b-931f-b99028e20290"
 provider: "claude"
-tags: ["ai", "computer-vision", "vfx", "coding"]
+tags: ["ai", "comparison", "research", "machine-learning", "algorithms"]
 date_discovered: 2026-07-27
 kind: "chat"
 featured: false

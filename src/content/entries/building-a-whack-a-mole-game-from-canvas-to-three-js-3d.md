@@ -3,7 +3,7 @@ title: "Building a Whack-a-Mole Game From Canvas to Three.js 3D"
 description: "The user asks for a whack-a-mole game and pushes it through several rounds of refinement, ending in a full Three.js 3D version with lighting and raycasting."
 source_url: "https://claude.ai/share/66ae6206-fa0e-4bde-ae4b-1461dfd9a3c3"
 provider: "claude"
-tags: ["games", "three-js", "web-dev", "css-animation", "javascript"]
+tags: ["games", "web-dev", "javascript", "algorithms", "debugging"]
 date_discovered: 2026-07-26
 kind: "chat"
 featured: false

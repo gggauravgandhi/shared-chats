@@ -3,7 +3,7 @@ title: "Vibe Coding Session - AI Collective Workshop"
 description: "A German-language agenda for a 90-minute workshop teaching non-technical business managers to build landing pages and calculators with no-code AI tools."
 source_url: "https://claude.ai/public/artifacts/010f2de0-a26c-4bef-a422-10eca8814cb6"
 provider: "claude"
-tags: ["developer-tools", "automation", "training"]
+tags: ["education", "planner", "tutorial", "web-dev", "guide"]
 date_discovered: 2026-07-27
 kind: "artifact"
 featured: false

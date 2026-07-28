@@ -1,13 +1,16 @@
 ---
 interface Props {
   tag: string;
+  /** True for tags[0], which is always the category. Renders filled instead of outlined. */
+  category?: boolean;
 }
 
-const { tag } = Astro.props;
+const { tag, category = false } = Astro.props;
+
+// Literal class strings so Tailwind's scanner picks them up.
+const CLASS = category
+  ? 'inline-block rounded-full border border-zinc-800 bg-zinc-800 px-2 py-0.5 text-xs font-medium text-zinc-100 hover:border-zinc-600 hover:bg-zinc-600 dark:border-zinc-200 dark:bg-zinc-200 dark:text-zinc-900 dark:hover:border-white dark:hover:bg-white'
+  : 'inline-block rounded-full border border-zinc-200 px-2 py-0.5 text-xs text-zinc-600 hover:border-zinc-400 hover:text-zinc-900 dark:border-zinc-700 dark:text-zinc-400 dark:hover:border-zinc-500 dark:hover:text-zinc-100';
 ---
 
-<a
-  href={`/tags/${tag}/`}
-  class="inline-block rounded-full border border-zinc-200 px-2 py-0.5 text-xs text-zinc-600 hover:border-zinc-400 hover:text-zinc-900 dark:border-zinc-700 dark:text-zinc-400 dark:hover:border-zinc-500 dark:hover:text-zinc-100"
-  >{tag}</a
->
+<a href={`/tags/${tag}/`} class={CLASS}>{tag}</a>
